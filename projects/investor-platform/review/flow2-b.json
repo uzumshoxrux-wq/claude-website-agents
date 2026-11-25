@@ -1,0 +1,399 @@
+{
+  "run": "b",
+  "entVp": "d1280",
+  "invVp": "m360",
+  "decision": "reject",
+  "projId": 10,
+  "entSteps": 13,
+  "invSteps": 13,
+  "log": [
+    "[T] API GET /api/projects?limit=50",
+    "[T] Bosh sahifa ochildi",
+    "[T] \"Biznesimga investor topish\" bosildi",
+    "[T] API POST /api/auth/register",
+    "[T] Ro'yxat formasi to'ldirildi va yuborildi",
+    "[T] API GET /api/me/saved",
+    "[T] Qisman to'ldirildi: nom + soha",
+    "[T] API POST /api/projects",
+    "[T] \"Qoralamani saqlash\" bosildi",
+    "[T] API PUT /api/projects/10",
+    "[T] To'liq bo'lmagan qoralamada \"Nashr qilish\" bosildi",
+    "[T] Qolgan maydonlar to'ldirildi",
+    "[T] API PUT /api/projects/10",
+    "[T] \"Nashr qilish\" bosildi",
+    "[T] API GET /api/me/projects",
+    "[T] API GET /api/me/requests/incoming",
+    "[T] API GET /api/me/saved",
+    "[T] API GET /api/projects/10",
+    "[T] API GET /api/me/saved",
+    "[T] API GET /api/me/projects",
+    "[T] API GET /api/me/requests/incoming",
+    "[I] API GET /api/projects?limit=50",
+    "[I] Bosh sahifa mehmon sifatida ochildi",
+    "[I] API POST /api/auth/register",
+    "[I] Investor sifatida ro'yxatdan o'tdi",
+    "[I] API GET /api/me/saved",
+    "[I] API GET /api/me/requests/outgoing",
+    "[I] API GET /api/me/saved",
+    "[I] API GET /api/me/saved",
+    "[I] API GET /api/projects?limit=50",
+    "[I] Bosh sahifaga qaytdi",
+    "[I] API GET /api/projects?",
+    "[I] \"Soha\" sheet ochildi",
+    "[I] API GET /api/projects?soha=ishlab-chiqarish",
+    "[I] API GET /api/projects?soha=ishlab-chiqarish&limit=50",
+    "[I] Soha qo'llandi",
+    "[I] API GET /api/projects?soha=ishlab-chiqarish",
+    "[I] API GET /api/projects?soha=ishlab-chiqarish&hudud=qashqadaryo",
+    "[I] API GET /api/projects?soha=ishlab-chiqarish&hudud=qashqadaryo&limit=50",
+    "[I] Hudud qo'llandi",
+    "[I] API GET /api/projects?soha=ishlab-chiqarish&hudud=qashqadaryo",
+    "[I] API GET /api/projects?soha=ishlab-chiqarish&hudud=qashqadaryo&tartib=summa-kamayish",
+    "[I] API GET /api/projects?soha=ishlab-chiqarish&hudud=qashqadaryo&tartib=summa-kamayish&limit=50",
+    "[I] Summa: kamayish tartibi qo'llandi",
+    "[I] API PUT /api/saved/10",
+    "[I] Yulduzcha bilan saqlandi",
+    "[I] API GET /api/projects/10",
+    "[I] Loyiha sahifasi ochildi",
+    "[I] \"Tadbirkor bilan bog'lanish\" bosildi",
+    "[I] API POST /api/projects/10/requests",
+    "[I] Xabar va aloqa yuborildi",
+    "[I] API POST /api/projects/10/requests",
+    "[I] API GET /api/projects/10",
+    "[I] API GET /api/me/requests/outgoing",
+    "[I] API GET /api/me/saved",
+    "[I] Kabinet ochildi",
+    "[T] API GET /api/me/saved",
+    "[T] API GET /api/me/projects",
+    "[T] API GET /api/me/requests/incoming",
+    "[T] Kabinet yangilandi",
+    "[T] API POST /api/requests/2/reject",
+    "[T] \"Rad etish\" bosildi",
+    "[I] API GET /api/me/requests/outgoing",
+    "[I] API GET /api/me/saved",
+    "[I] Kabinetda \"Yangilash\" bosildi",
+    "[I] API PUT /api/projects/10",
+    "[I] API POST /api/projects/10/close",
+    "[I] API POST /api/requests/2/accept",
+    "[I] API GET /api/me/requests/incoming",
+    "[T] API GET /api/projects/10",
+    "[T] Tahrirlash ochildi",
+    "[T] API PUT /api/projects/10",
+    "[T] \"O'zgarishlarni saqlash\" bosildi",
+    "[T] API GET /api/me/saved",
+    "[T] API GET /api/me/projects",
+    "[T] API GET /api/me/requests/incoming",
+    "[T] confirm(): \"“Tikuv sexi Qarshi mww2dake” e’lonini yopasizmi? U ochiq reestrdan olib tashlanadi.\" -> accept",
+    "[T] API POST /api/projects/10/close",
+    "[T] \"E'lonni yopish\" bosildi (confirm)",
+    "[T] API GET /api/me/projects",
+    "[T] API GET /api/me/requests/incoming",
+    "[I] API GET /api/me/saved",
+    "[I] API GET /api/projects/10",
+    "[I] API GET /api/me/saved",
+    "[I] API GET /api/me/requests/outgoing",
+    "[I] API GET /api/me/saved"
+  ],
+  "checks": [
+    {
+      "name": "b: find-investor -> ro'yxat sahifasi",
+      "ok": true,
+      "detail": "http://127.0.0.1:3100/royxatdan-otish?rol=tadbirkor&next=%2Fkabinet%2Fyangi"
+    },
+    {
+      "name": "b: tadbirkor roli oldindan tanlangan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: ro'yxat bo'sh forma xatolari maydon yonida",
+      "ok": true,
+      "detail": "[\"Ismingizni kiriting.\",\"To‘g‘ri email manzil kiriting, masalan: ism@pochta.uz\",\"Parol kamida 8 ta belgidan iborat bo‘lsin.\"]"
+    },
+    {
+      "name": "b: ro'yxatdan keyin yangi loyiha formasi",
+      "ok": true,
+      "detail": "http://127.0.0.1:3100/kabinet/yangi"
+    },
+    {
+      "name": "b: qoralama saqlandi, id=10",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: qoralama ochiq katalog API da yo'q",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: qoralama /api/projects/:id mehmonga 404",
+      "ok": true,
+      "detail": "404"
+    },
+    {
+      "name": "b: nashr urinishida majburiy maydon xatolari maydon yonida",
+      "ok": true,
+      "detail": "[\"region\",\"stage\",\"summary\",\"amount_usd\",\"use_of_funds\",\"terms\"]"
+    },
+    {
+      "name": "b: xato xulosasi ko'rinadi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: kabinetda e'lon Nashr qilingan",
+      "ok": true,
+      "detail": " Tikuv sexi Qarshi mww2dake Nashr qilingan 120 000 USD 25.11.2026 Tahrirlash E’lonni yopish "
+    },
+    {
+      "name": "b: nashrdan keyin mehmon API ko'radi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: R-3 o'z e'lonida bog'lanish tugmasi yo'q",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "b: mehmon bosh sahifada reestrni ko'radi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: mehmon yulduzcha -> kirish taklifi",
+      "ok": true,
+      "detail": "\n      \n        Saqlash uchun akkauntga kiring\n        Saqlanganlar akkauntingiz"
+    },
+    {
+      "name": "b: dialog Esc bilan yopiladi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: R-4 mehmon yopgan kirish taklifidagi loyiha avtomatik saqlanmagan",
+      "ok": true,
+      "detail": "guestStarId=1 saved=[]"
+    },
+    {
+      "name": "b: sheet tugmasida real natija soni",
+      "ok": true,
+      "detail": "2 ta loyihani ko‘rsatish"
+    },
+    {
+      "name": "b: filtrlar URL da",
+      "ok": true,
+      "detail": "http://127.0.0.1:3100/?soha=ishlab-chiqarish&hudud=qashqadaryo&tartib=summa-kamayish"
+    },
+    {
+      "name": "b: filtrdan keyin loyiha topildi",
+      "ok": true,
+      "detail": "[\"Tikuv sexi Qarshi mww2dake\"]"
+    },
+    {
+      "name": "b: natija soni ko'rsatilgan",
+      "ok": true,
+      "detail": "1 ta loyiha"
+    },
+    {
+      "name": "b: saqlashdan oldin yulduzcha bo'sh",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: yulduzcha aria-pressed=true",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: loyiha sahifasida tadbirkor emaili yo'q",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: raqamlangan bo'limlar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: maxfiylik izohi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: foiz jadvali",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: loyiha sahifasida \"Saqlangan\"",
+      "ok": true,
+      "detail": "Saqlangan"
+    },
+    {
+      "name": "b: mobilda faqat bitta CTA (doc__cta yashirin)",
+      "ok": true,
+      "detail": "sticky=true doc=false"
+    },
+    {
+      "name": "b: mobil yopishqoq CTA ekranda pastda",
+      "ok": true,
+      "detail": "{\"x\":16,\"y\":688,\"width\":328,\"height\":44}"
+    },
+    {
+      "name": "b: CTA fokusni forma maydoniga olib boradi",
+      "ok": true,
+      "detail": "c-message"
+    },
+    {
+      "name": "b: bog'lanish formasi validatsiyasi",
+      "ok": true,
+      "detail": "[\"Xabar kamida 10 ta belgidan iborat bo‘lsin.\",\"Javob olish uchun telefon, email yoki Telegram manzilini yozing.\"]"
+    },
+    {
+      "name": "b: yuborilgandan keyin tasdiq + Kutilmoqda",
+      "ok": true,
+      "detail": "So‘rovingiz yuborildi. Holati: Kutilmoqda Tadbirkor so‘rovni qabul qilsa yoki rad etsa, natija kabinetingizda ko‘rinadi."
+    },
+    {
+      "name": "b: takroriy so'rov rad etiladi (409)",
+      "ok": true,
+      "detail": "409"
+    },
+    {
+      "name": "b: investor aloqasi ochiq katalog API da yo'q",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: investor aloqasi ochiq loyiha API da yo'q",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: investor sessiyasida ham loyiha API da tadbirkor aloqasi yo'q",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: investor kabinetida \"Kutilmoqda\"",
+      "ok": true,
+      "detail": "Tikuv sexi Qarshi mww2dake Assalomu alaykum. Loyihangiz qiziqarli, shartlarni batafsil muhokama qilmoqchiman. 25.11.2026 Kutilmoqda Tadbirkor hali javob bermagan."
+    },
+    {
+      "name": "b: tadbirkor so'rovni ko'radi (xabar, aloqa, ism)",
+      "ok": true,
+      "detail": "Tikuv sexi Qarshi mww2dake Investor B Assalomu alaykum. Loyihangiz qiziqarli, shartlarni batafsil muhokama qilmoqchiman. @investor_maxfiy_b 25.11.2026 Kutilmoqda Qabul qilish Rad etish"
+    },
+    {
+      "name": "b: tadbirkor kabinetida holat \"Rad etildi\"",
+      "ok": true,
+      "detail": "Tikuv sexi Qarshi mww2dake Investor B Assalomu alaykum. Loyihangiz qiziqarli, shartlarni batafsil muhokama qilmoqchiman. @investor_maxfiy_b 25.11.2026 Rad etildi Hozirgina"
+    },
+    {
+      "name": "b: investor kabinetida \"Rad etildi\"",
+      "ok": true,
+      "detail": "Tikuv sexi Qarshi mww2dake Assalomu alaykum. Loyihangiz qiziqarli, shartlarni batafsil muhokama qilmoqchiman. 25.11.2026 Rad etildi Tadbirkor bu so‘rovni rad etdi."
+    },
+    {
+      "name": "b: saqlangan loyiha 3-qurilmada ham ko'rinadi",
+      "ok": true,
+      "detail": "[\"Tikuv sexi Qarshi mww2dake\"]"
+    },
+    {
+      "name": "b: investor begona loyihani tahrirlay olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: investor begona loyihani yopa olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: investor so'rovni qabul qila olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: investor kiruvchi so'rovlarni o'qiy olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: begona tadbirkor loyihani tahrirlay olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: begona tadbirkor loyihani yopa olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: begona tadbirkor rasmini o'chira olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: begona tadbirkor so'rovni rad eta olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: begona tadbirkor kiruvchilarida so'rov yo'q",
+      "ok": true,
+      "detail": "{\"items\":[]}"
+    },
+    {
+      "name": "b: begona tadbirkor tahrirlash sahifasini ocholmaydi (UI)",
+      "ok": true,
+      "detail": "Sahifa topilmadi"
+    },
+    {
+      "name": "b: tahrir saqlandi va ochiq sahifada yangilandi",
+      "ok": true,
+      "detail": "125000 published"
+    },
+    {
+      "name": "b: kabinetda \"Yopilgan\"",
+      "ok": true,
+      "detail": "Tikuv sexi Qarshi mww2dake Yopilgan 125 000 USD 25.11.2026 Tahrirlash Qayta nashr qilish"
+    },
+    {
+      "name": "b: yopilgan e'lon ochiq katalogda yo'q",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: yopilgan sahifada izoh",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "b: R-3 yopilgan sahifada footer ortiqcha pastki joysiz",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "b: R-3 yopilgan e'londa \"Tadbirkor bilan bog'lanish\" tugmasi o'chgan/yashirin",
+      "ok": true,
+      "detail": "visible=false"
+    },
+    {
+      "name": "b: investor kabinetida \"E'lon yopilgan\" belgisi",
+      "ok": true,
+      "detail": "Tikuv sexi Qarshi mww2dake E’lon yopilgan Assalomu alaykum. Loyihangiz qiziqarli, shartlarni batafsil muhokama qilmoqchiman. 25.11.2026 Rad etildi Tadbirkor bu so‘rovni rad etdi."
+    },
+    {
+      "name": "b: tadbirkor brauzerida konsol/tarmoq xatolari yo'q",
+      "ok": false,
+      "detail": "[\"HTTP 422 PUT http://127.0.0.1:3100/api/projects/10\",\"console: Failed to load resource: the server responded with a status of 422 (Unprocessable Entity)\"]"
+    },
+    {
+      "name": "b: investor brauzerida konsol/tarmoq xatolari yo'q",
+      "ok": false,
+      "detail": "[\"HTTP 409 POST http://127.0.0.1:3100/api/projects/10/requests\",\"console: Failed to load resource: the server responded with a status of 409 (Conflict)\",\"HTTP 403 PUT http://127.0.0.1:3100/api/projects/10\",\"console: Failed to load resource: the server responded with a status of 403 (Forbidden)\",\"HTTP 403 POST http://127.0.0.1:3100/api/projects/10/close\",\"console: Failed to load resource: the server responded with a status of 403 (Forbidden)\",\"HTTP 403 POST http://127.0.0.1:3100/api/requests/2/accept\",\"console: Failed to load resource: the server responded with a status of 403 (Forbidden)\",\"HTTP 403 GET http://127.0.0.1:3100/api/me/requests/incoming\",\"console: Failed to load resource: the server responded with a status of 403 (Forbidden)\"]"
+    }
+  ]
+}

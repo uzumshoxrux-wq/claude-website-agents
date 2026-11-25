@@ -1,0 +1,3032 @@
+{
+  "pages": [
+    {
+      "vp": "m360",
+      "page": "home",
+      "file": "vp-m360-home.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "A",
+          "text": "Tikuvchilik sexi: ish kiyimlari",
+          "w": 207,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "G‘isht zavodi uchun yangi pech",
+          "w": 207,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Klinikalar uchun navbat tizimi",
+          "w": 183,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Mehmonxona: 12 xonali oilaviy uy",
+          "w": 190,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Shahar ichida tez yetkazib berish",
+          "w": 190,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Bolalar uchun robototexnika to‘garagi",
+          "w": 172,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Issiqxona: yil bo‘yi pomidor",
+          "w": 200,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Quritilgan meva sexi",
+          "w": 151,
+          "h": 20,
+          "inline": false
+        }
+      ],
+      "ell": [
+        "row__what: Zavod va qurilish kompaniyalari uchun buyurtma asosida ish k",
+        "row__what: Pishiq g‘isht ishlab chiqaruvchi korxona yoqilg‘ini tejaydig",
+        "row__what: Xususiy klinikalarga onlayn yozilish va SMS eslatmalar beruv",
+        "row__what: Eski shahar yaqinidagi uyni sayyohlar uchun 12 xonali oilavi",
+        "row__what: Do‘kon va kafelardan buyurtmalarni velokuryerlar orqali shu ",
+        "row__what: 8–14 yoshli bolalarga konstruktorlar yordamida robototexnika",
+        "row__what: 0,5 gektarlik issiqxonada pomidor yetishtiradi, maydonni 1,5",
+        "row__what: O‘rik va olxo‘rini quritib, 250–500 grammli qadoqlarda do‘ko"
+      ],
+      "minFont": 12,
+      "minFontEl": "SPAN.tag tag--sample \"Namuna\"",
+      "rows": [
+        {
+          "name": "Tikuvchilik sexi: ish kiyimlari",
+          "metaVisible": true,
+          "meta": "Sanoat ishlab chiqarishi · Namangan viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 145
+        },
+        {
+          "name": "G‘isht zavodi uchun yangi pech",
+          "metaVisible": true,
+          "meta": "Qurilish va materiallar · Qashqadaryo viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 145
+        },
+        {
+          "name": "Klinikalar uchun navbat tizimi",
+          "metaVisible": true,
+          "meta": "IT va texnologiya · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Mehmonxona: 12 xonali oilaviy uy",
+          "metaVisible": true,
+          "meta": "Turizm va mehmondo‘stlik · Buxoro viloyati · G‘oya",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Shahar ichida tez yetkazib berish",
+          "metaVisible": true,
+          "meta": "Transport va logistika · Andijon viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Bolalar uchun robototexnika to‘garagi",
+          "metaVisible": true,
+          "meta": "Ta’lim · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Issiqxona: yil bo‘yi pomidor",
+          "metaVisible": true,
+          "meta": "Qishloq xo‘jaligi · Samarqand viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Quritilgan meva sexi",
+          "metaVisible": true,
+          "meta": "Oziq-ovqat ishlab chiqarish · Farg‘ona viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 123
+        }
+      ],
+      "fontsSmall": [
+        "SPAN.tag tag--sample 12px \"Namuna\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:O‘zbekistondagi biznes loyihalari va inv",
+        "H2:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m360",
+      "page": "catalog",
+      "file": "vp-m360-catalog.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "A",
+          "text": "Tikuvchilik sexi: ish kiyimlari",
+          "w": 207,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "G‘isht zavodi uchun yangi pech",
+          "w": 207,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Klinikalar uchun navbat tizimi",
+          "w": 183,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Mehmonxona: 12 xonali oilaviy uy",
+          "w": 190,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Shahar ichida tez yetkazib berish",
+          "w": 190,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Bolalar uchun robototexnika to‘garagi",
+          "w": 172,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Issiqxona: yil bo‘yi pomidor",
+          "w": 200,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Quritilgan meva sexi",
+          "w": 151,
+          "h": 20,
+          "inline": false
+        }
+      ],
+      "ell": [
+        "row__what: Zavod va qurilish kompaniyalari uchun buyurtma asosida ish k",
+        "row__what: Pishiq g‘isht ishlab chiqaruvchi korxona yoqilg‘ini tejaydig",
+        "row__what: Xususiy klinikalarga onlayn yozilish va SMS eslatmalar beruv",
+        "row__what: Eski shahar yaqinidagi uyni sayyohlar uchun 12 xonali oilavi",
+        "row__what: Do‘kon va kafelardan buyurtmalarni velokuryerlar orqali shu ",
+        "row__what: 8–14 yoshli bolalarga konstruktorlar yordamida robototexnika",
+        "row__what: 0,5 gektarlik issiqxonada pomidor yetishtiradi, maydonni 1,5",
+        "row__what: O‘rik va olxo‘rini quritib, 250–500 grammli qadoqlarda do‘ko"
+      ],
+      "minFont": 12,
+      "minFontEl": "SPAN.tag tag--sample \"Namuna\"",
+      "rows": [
+        {
+          "name": "Tikuvchilik sexi: ish kiyimlari",
+          "metaVisible": true,
+          "meta": "Sanoat ishlab chiqarishi · Namangan viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 145
+        },
+        {
+          "name": "G‘isht zavodi uchun yangi pech",
+          "metaVisible": true,
+          "meta": "Qurilish va materiallar · Qashqadaryo viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 145
+        },
+        {
+          "name": "Klinikalar uchun navbat tizimi",
+          "metaVisible": true,
+          "meta": "IT va texnologiya · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Mehmonxona: 12 xonali oilaviy uy",
+          "metaVisible": true,
+          "meta": "Turizm va mehmondo‘stlik · Buxoro viloyati · G‘oya",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Shahar ichida tez yetkazib berish",
+          "metaVisible": true,
+          "meta": "Transport va logistika · Andijon viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Bolalar uchun robototexnika to‘garagi",
+          "metaVisible": true,
+          "meta": "Ta’lim · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Issiqxona: yil bo‘yi pomidor",
+          "metaVisible": true,
+          "meta": "Qishloq xo‘jaligi · Samarqand viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Quritilgan meva sexi",
+          "metaVisible": true,
+          "meta": "Oziq-ovqat ishlab chiqarish · Farg‘ona viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 123
+        }
+      ],
+      "fontsSmall": [
+        "SPAN.tag tag--sample 12px \"Namuna\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m360",
+      "page": "project-sample",
+      "file": "vp-m360-project-sample.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 12,
+      "minFontEl": "SPAN.tag tag--sample \"Namuna\"",
+      "rows": [],
+      "fontsSmall": [
+        "SPAN.tag tag--sample 12px \"Namuna\"",
+        "TH. 12px \"Yo‘nalish\"",
+        "TH.num 12px \"Ulush\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Tikuvchilik sexi: ish kiyimlari",
+        "H2:1. Biznes haqida",
+        "H2:2. Mablag‘dan foydalanish",
+        "H2:3. Hamkorlik sharti",
+        "H2:4. Bog‘lanish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m360",
+      "page": "login",
+      "file": "vp-m360-login.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "A",
+          "text": "Ro‘yxatdan o‘ting",
+          "w": 109,
+          "h": 18,
+          "inline": true
+        }
+      ],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kirish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m360",
+      "page": "register",
+      "file": "vp-m360-register.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "A",
+          "text": "Kirish",
+          "w": 36,
+          "h": 18,
+          "inline": true
+        }
+      ],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Ro‘yxatdan o‘tish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m360",
+      "page": "404",
+      "file": "vp-m360-404.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Sahifa topilmadi"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 404,
+      "errors": [
+        "404 http://127.0.0.1:3100/yoq-sahifa",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ]
+    },
+    {
+      "vp": "m360",
+      "page": "cabinet-investor",
+      "file": "vp-m360-cabinet-investor.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kabinet",
+        "H2:Mening so‘rovlarim",
+        "H2:Saqlangan loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m360",
+      "page": "catalog-saved-empty",
+      "file": "vp-m360-catalog-saved-empty.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m360",
+      "page": "form-new",
+      "file": "vp-m360-form-new.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "INPUT",
+          "text": "",
+          "w": 1,
+          "h": 1,
+          "inline": false
+        }
+      ],
+      "ell": [
+        "file__input: "
+      ],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Yangi loyiha",
+        "H2:1. Asosiy ma’lumot",
+        "H2:2. Biznes haqida",
+        "H2:3. Investitsiya",
+        "H2:4. Hamkorlik shartlari"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m360",
+      "page": "cabinet-entrepreneur",
+      "file": "vp-m360-cabinet-entrepreneur.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kabinet",
+        "H2:Mening e’lonlarim",
+        "H2:So‘rovlar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m390",
+      "page": "home",
+      "file": "vp-m390-home.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "A",
+          "text": "Tikuvchilik sexi: ish kiyimlari",
+          "w": 207,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "G‘isht zavodi uchun yangi pech",
+          "w": 207,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Klinikalar uchun navbat tizimi",
+          "w": 238,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Mehmonxona: 12 xonali oilaviy uy",
+          "w": 239,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Shahar ichida tez yetkazib berish",
+          "w": 190,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Bolalar uchun robototexnika to‘garagi",
+          "w": 172,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Issiqxona: yil bo‘yi pomidor",
+          "w": 200,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Quritilgan meva sexi",
+          "w": 151,
+          "h": 20,
+          "inline": false
+        }
+      ],
+      "ell": [
+        "row__what: Zavod va qurilish kompaniyalari uchun buyurtma asosida ish k",
+        "row__what: Pishiq g‘isht ishlab chiqaruvchi korxona yoqilg‘ini tejaydig",
+        "row__what: Xususiy klinikalarga onlayn yozilish va SMS eslatmalar beruv",
+        "row__what: Eski shahar yaqinidagi uyni sayyohlar uchun 12 xonali oilavi",
+        "row__what: Do‘kon va kafelardan buyurtmalarni velokuryerlar orqali shu ",
+        "row__what: 8–14 yoshli bolalarga konstruktorlar yordamida robototexnika",
+        "row__what: 0,5 gektarlik issiqxonada pomidor yetishtiradi, maydonni 1,5",
+        "row__what: O‘rik va olxo‘rini quritib, 250–500 grammli qadoqlarda do‘ko"
+      ],
+      "minFont": 12,
+      "minFontEl": "SPAN.tag tag--sample \"Namuna\"",
+      "rows": [
+        {
+          "name": "Tikuvchilik sexi: ish kiyimlari",
+          "metaVisible": true,
+          "meta": "Sanoat ishlab chiqarishi · Namangan viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "G‘isht zavodi uchun yangi pech",
+          "metaVisible": true,
+          "meta": "Qurilish va materiallar · Qashqadaryo viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Klinikalar uchun navbat tizimi",
+          "metaVisible": true,
+          "meta": "IT va texnologiya · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Mehmonxona: 12 xonali oilaviy uy",
+          "metaVisible": true,
+          "meta": "Turizm va mehmondo‘stlik · Buxoro viloyati · G‘oya",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Shahar ichida tez yetkazib berish",
+          "metaVisible": true,
+          "meta": "Transport va logistika · Andijon viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Bolalar uchun robototexnika to‘garagi",
+          "metaVisible": true,
+          "meta": "Ta’lim · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Issiqxona: yil bo‘yi pomidor",
+          "metaVisible": true,
+          "meta": "Qishloq xo‘jaligi · Samarqand viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Quritilgan meva sexi",
+          "metaVisible": true,
+          "meta": "Oziq-ovqat ishlab chiqarish · Farg‘ona viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 103
+        }
+      ],
+      "fontsSmall": [
+        "SPAN.tag tag--sample 12px \"Namuna\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:O‘zbekistondagi biznes loyihalari va inv",
+        "H2:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m390",
+      "page": "catalog",
+      "file": "vp-m390-catalog.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "A",
+          "text": "Tikuvchilik sexi: ish kiyimlari",
+          "w": 207,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "G‘isht zavodi uchun yangi pech",
+          "w": 207,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Klinikalar uchun navbat tizimi",
+          "w": 238,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Mehmonxona: 12 xonali oilaviy uy",
+          "w": 239,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Shahar ichida tez yetkazib berish",
+          "w": 190,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Bolalar uchun robototexnika to‘garagi",
+          "w": 172,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Issiqxona: yil bo‘yi pomidor",
+          "w": 200,
+          "h": 42,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Quritilgan meva sexi",
+          "w": 151,
+          "h": 20,
+          "inline": false
+        }
+      ],
+      "ell": [
+        "row__what: Zavod va qurilish kompaniyalari uchun buyurtma asosida ish k",
+        "row__what: Pishiq g‘isht ishlab chiqaruvchi korxona yoqilg‘ini tejaydig",
+        "row__what: Xususiy klinikalarga onlayn yozilish va SMS eslatmalar beruv",
+        "row__what: Eski shahar yaqinidagi uyni sayyohlar uchun 12 xonali oilavi",
+        "row__what: Do‘kon va kafelardan buyurtmalarni velokuryerlar orqali shu ",
+        "row__what: 8–14 yoshli bolalarga konstruktorlar yordamida robototexnika",
+        "row__what: 0,5 gektarlik issiqxonada pomidor yetishtiradi, maydonni 1,5",
+        "row__what: O‘rik va olxo‘rini quritib, 250–500 grammli qadoqlarda do‘ko"
+      ],
+      "minFont": 12,
+      "minFontEl": "SPAN.tag tag--sample \"Namuna\"",
+      "rows": [
+        {
+          "name": "Tikuvchilik sexi: ish kiyimlari",
+          "metaVisible": true,
+          "meta": "Sanoat ishlab chiqarishi · Namangan viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "G‘isht zavodi uchun yangi pech",
+          "metaVisible": true,
+          "meta": "Qurilish va materiallar · Qashqadaryo viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Klinikalar uchun navbat tizimi",
+          "metaVisible": true,
+          "meta": "IT va texnologiya · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Mehmonxona: 12 xonali oilaviy uy",
+          "metaVisible": true,
+          "meta": "Turizm va mehmondo‘stlik · Buxoro viloyati · G‘oya",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Shahar ichida tez yetkazib berish",
+          "metaVisible": true,
+          "meta": "Transport va logistika · Andijon viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Bolalar uchun robototexnika to‘garagi",
+          "metaVisible": true,
+          "meta": "Ta’lim · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Issiqxona: yil bo‘yi pomidor",
+          "metaVisible": true,
+          "meta": "Qishloq xo‘jaligi · Samarqand viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 125
+        },
+        {
+          "name": "Quritilgan meva sexi",
+          "metaVisible": true,
+          "meta": "Oziq-ovqat ishlab chiqarish · Farg‘ona viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 103
+        }
+      ],
+      "fontsSmall": [
+        "SPAN.tag tag--sample 12px \"Namuna\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m390",
+      "page": "project-sample",
+      "file": "vp-m390-project-sample.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 12,
+      "minFontEl": "SPAN.tag tag--sample \"Namuna\"",
+      "rows": [],
+      "fontsSmall": [
+        "SPAN.tag tag--sample 12px \"Namuna\"",
+        "TH. 12px \"Yo‘nalish\"",
+        "TH.num 12px \"Ulush\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Tikuvchilik sexi: ish kiyimlari",
+        "H2:1. Biznes haqida",
+        "H2:2. Mablag‘dan foydalanish",
+        "H2:3. Hamkorlik sharti",
+        "H2:4. Bog‘lanish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m390",
+      "page": "login",
+      "file": "vp-m390-login.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "A",
+          "text": "Ro‘yxatdan o‘ting",
+          "w": 109,
+          "h": 18,
+          "inline": true
+        }
+      ],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kirish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m390",
+      "page": "register",
+      "file": "vp-m390-register.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "A",
+          "text": "Kirish",
+          "w": 36,
+          "h": 18,
+          "inline": true
+        }
+      ],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Ro‘yxatdan o‘tish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m390",
+      "page": "404",
+      "file": "vp-m390-404.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Sahifa topilmadi"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 404,
+      "errors": [
+        "404 http://127.0.0.1:3100/yoq-sahifa",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ]
+    },
+    {
+      "vp": "m390",
+      "page": "cabinet-investor",
+      "file": "vp-m390-cabinet-investor.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kabinet",
+        "H2:Mening so‘rovlarim",
+        "H2:Saqlangan loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m390",
+      "page": "catalog-saved-empty",
+      "file": "vp-m390-catalog-saved-empty.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m390",
+      "page": "form-new",
+      "file": "vp-m390-form-new.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "INPUT",
+          "text": "",
+          "w": 1,
+          "h": 1,
+          "inline": false
+        }
+      ],
+      "ell": [
+        "file__input: "
+      ],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Yangi loyiha",
+        "H2:1. Asosiy ma’lumot",
+        "H2:2. Biznes haqida",
+        "H2:3. Investitsiya",
+        "H2:4. Hamkorlik shartlari"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "m390",
+      "page": "cabinet-entrepreneur",
+      "file": "vp-m390-cabinet-entrepreneur.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kabinet",
+        "H2:Mening e’lonlarim",
+        "H2:So‘rovlar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "t768",
+      "page": "home",
+      "file": "vp-t768-home.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "A",
+          "text": "Tikuvchilik sexi: ish kiyimlari",
+          "w": 213,
+          "h": 20,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "G‘isht zavodi uchun yangi pech",
+          "w": 228,
+          "h": 20,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Klinikalar uchun navbat tizimi",
+          "w": 221,
+          "h": 20,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Mehmonxona: 12 xonali oilaviy uy",
+          "w": 250,
+          "h": 20,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Shahar ichida tez yetkazib berish",
+          "w": 245,
+          "h": 20,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Bolalar uchun robototexnika to‘garagi",
+          "w": 278,
+          "h": 20,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Issiqxona: yil bo‘yi pomidor",
+          "w": 204,
+          "h": 20,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Quritilgan meva sexi",
+          "w": 151,
+          "h": 20,
+          "inline": false
+        }
+      ],
+      "ell": [],
+      "minFont": 12,
+      "minFontEl": "SPAN.tag tag--sample \"Namuna\"",
+      "rows": [
+        {
+          "name": "Tikuvchilik sexi: ish kiyimlari",
+          "metaVisible": true,
+          "meta": "Sanoat ishlab chiqarishi · Namangan viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        },
+        {
+          "name": "G‘isht zavodi uchun yangi pech",
+          "metaVisible": true,
+          "meta": "Qurilish va materiallar · Qashqadaryo viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        },
+        {
+          "name": "Klinikalar uchun navbat tizimi",
+          "metaVisible": true,
+          "meta": "IT va texnologiya · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        },
+        {
+          "name": "Mehmonxona: 12 xonali oilaviy uy",
+          "metaVisible": true,
+          "meta": "Turizm va mehmondo‘stlik · Buxoro viloyati · G‘oya",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        },
+        {
+          "name": "Shahar ichida tez yetkazib berish",
+          "metaVisible": true,
+          "meta": "Transport va logistika · Andijon viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        },
+        {
+          "name": "Bolalar uchun robototexnika to‘garagi",
+          "metaVisible": true,
+          "meta": "Ta’lim · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        },
+        {
+          "name": "Issiqxona: yil bo‘yi pomidor",
+          "metaVisible": true,
+          "meta": "Qishloq xo‘jaligi · Samarqand viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        },
+        {
+          "name": "Quritilgan meva sexi",
+          "metaVisible": true,
+          "meta": "Oziq-ovqat ishlab chiqarish · Farg‘ona viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        }
+      ],
+      "fontsSmall": [
+        "SPAN.tag tag--sample 12px \"Namuna\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:O‘zbekistondagi biznes loyihalari va inv",
+        "H2:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "t768",
+      "page": "catalog",
+      "file": "vp-t768-catalog.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "A",
+          "text": "Tikuvchilik sexi: ish kiyimlari",
+          "w": 213,
+          "h": 20,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "G‘isht zavodi uchun yangi pech",
+          "w": 228,
+          "h": 20,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Klinikalar uchun navbat tizimi",
+          "w": 221,
+          "h": 20,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Mehmonxona: 12 xonali oilaviy uy",
+          "w": 250,
+          "h": 20,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Shahar ichida tez yetkazib berish",
+          "w": 245,
+          "h": 20,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Bolalar uchun robototexnika to‘garagi",
+          "w": 278,
+          "h": 20,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Issiqxona: yil bo‘yi pomidor",
+          "w": 204,
+          "h": 20,
+          "inline": false
+        },
+        {
+          "tag": "A",
+          "text": "Quritilgan meva sexi",
+          "w": 151,
+          "h": 20,
+          "inline": false
+        }
+      ],
+      "ell": [],
+      "minFont": 12,
+      "minFontEl": "SPAN.tag tag--sample \"Namuna\"",
+      "rows": [
+        {
+          "name": "Tikuvchilik sexi: ish kiyimlari",
+          "metaVisible": true,
+          "meta": "Sanoat ishlab chiqarishi · Namangan viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        },
+        {
+          "name": "G‘isht zavodi uchun yangi pech",
+          "metaVisible": true,
+          "meta": "Qurilish va materiallar · Qashqadaryo viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        },
+        {
+          "name": "Klinikalar uchun navbat tizimi",
+          "metaVisible": true,
+          "meta": "IT va texnologiya · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        },
+        {
+          "name": "Mehmonxona: 12 xonali oilaviy uy",
+          "metaVisible": true,
+          "meta": "Turizm va mehmondo‘stlik · Buxoro viloyati · G‘oya",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        },
+        {
+          "name": "Shahar ichida tez yetkazib berish",
+          "metaVisible": true,
+          "meta": "Transport va logistika · Andijon viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        },
+        {
+          "name": "Bolalar uchun robototexnika to‘garagi",
+          "metaVisible": true,
+          "meta": "Ta’lim · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        },
+        {
+          "name": "Issiqxona: yil bo‘yi pomidor",
+          "metaVisible": true,
+          "meta": "Qishloq xo‘jaligi · Samarqand viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        },
+        {
+          "name": "Quritilgan meva sexi",
+          "metaVisible": true,
+          "meta": "Oziq-ovqat ishlab chiqarish · Farg‘ona viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 86
+        }
+      ],
+      "fontsSmall": [
+        "SPAN.tag tag--sample 12px \"Namuna\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "t768",
+      "page": "project-sample",
+      "file": "vp-t768-project-sample.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 12,
+      "minFontEl": "SPAN.tag tag--sample \"Namuna\"",
+      "rows": [],
+      "fontsSmall": [
+        "SPAN.tag tag--sample 12px \"Namuna\"",
+        "TH. 12px \"Yo‘nalish\"",
+        "TH.num 12px \"Ulush\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Tikuvchilik sexi: ish kiyimlari",
+        "H2:1. Biznes haqida",
+        "H2:2. Mablag‘dan foydalanish",
+        "H2:3. Hamkorlik sharti",
+        "H2:4. Bog‘lanish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "t768",
+      "page": "login",
+      "file": "vp-t768-login.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "A",
+          "text": "Ro‘yxatdan o‘ting",
+          "w": 109,
+          "h": 18,
+          "inline": true
+        }
+      ],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kirish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "t768",
+      "page": "register",
+      "file": "vp-t768-register.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "A",
+          "text": "Kirish",
+          "w": 36,
+          "h": 18,
+          "inline": true
+        }
+      ],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Ro‘yxatdan o‘tish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "t768",
+      "page": "404",
+      "file": "vp-t768-404.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Sahifa topilmadi"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 404,
+      "errors": [
+        "404 http://127.0.0.1:3100/yoq-sahifa",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ]
+    },
+    {
+      "vp": "t768",
+      "page": "cabinet-investor",
+      "file": "vp-t768-cabinet-investor.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kabinet",
+        "H2:Mening so‘rovlarim",
+        "H2:Saqlangan loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "t768",
+      "page": "catalog-saved-empty",
+      "file": "vp-t768-catalog-saved-empty.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "t768",
+      "page": "form-new",
+      "file": "vp-t768-form-new.png",
+      "overflow": 0,
+      "small": [
+        {
+          "tag": "INPUT",
+          "text": "",
+          "w": 1,
+          "h": 1,
+          "inline": false
+        }
+      ],
+      "ell": [
+        "file__input: "
+      ],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Yangi loyiha",
+        "H2:1. Asosiy ma’lumot",
+        "H2:2. Biznes haqida",
+        "H2:3. Investitsiya",
+        "H2:4. Hamkorlik shartlari"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "t768",
+      "page": "cabinet-entrepreneur",
+      "file": "vp-t768-cabinet-entrepreneur.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 14,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kabinet",
+        "H2:Mening e’lonlarim",
+        "H2:So‘rovlar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1280",
+      "page": "home",
+      "file": "vp-d1280-home.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [
+        "row__what: Zavod va qurilish kompaniyalari uchun buyurtma asosida ish k",
+        "row__what: Pishiq g‘isht ishlab chiqaruvchi korxona yoqilg‘ini tejaydig",
+        "row__what: Xususiy klinikalarga onlayn yozilish va SMS eslatmalar beruv",
+        "row__what: Eski shahar yaqinidagi uyni sayyohlar uchun 12 xonali oilavi",
+        "row__what: Do‘kon va kafelardan buyurtmalarni velokuryerlar orqali shu ",
+        "row__what: 8–14 yoshli bolalarga konstruktorlar yordamida robototexnika",
+        "row__what: 0,5 gektarlik issiqxonada pomidor yetishtiradi, maydonni 1,5",
+        "row__what: O‘rik va olxo‘rini quritib, 250–500 grammli qadoqlarda do‘ko"
+      ],
+      "minFont": 13,
+      "minFontEl": "LABEL. \"Soha\"",
+      "rows": [
+        {
+          "name": "Tikuvchilik sexi: ish kiyimlari",
+          "metaVisible": false,
+          "meta": "Sanoat ishlab chiqarishi · Namangan viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "G‘isht zavodi uchun yangi pech",
+          "metaVisible": false,
+          "meta": "Qurilish va materiallar · Qashqadaryo viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "Klinikalar uchun navbat tizimi",
+          "metaVisible": false,
+          "meta": "IT va texnologiya · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        },
+        {
+          "name": "Mehmonxona: 12 xonali oilaviy uy",
+          "metaVisible": false,
+          "meta": "Turizm va mehmondo‘stlik · Buxoro viloyati · G‘oya",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        },
+        {
+          "name": "Shahar ichida tez yetkazib berish",
+          "metaVisible": false,
+          "meta": "Transport va logistika · Andijon viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "Bolalar uchun robototexnika to‘garagi",
+          "metaVisible": false,
+          "meta": "Ta’lim · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        },
+        {
+          "name": "Issiqxona: yil bo‘yi pomidor",
+          "metaVisible": false,
+          "meta": "Qishloq xo‘jaligi · Samarqand viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "Quritilgan meva sexi",
+          "metaVisible": false,
+          "meta": "Oziq-ovqat ishlab chiqarish · Farg‘ona viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        }
+      ],
+      "fontsSmall": [
+        "LABEL. 13px \"Soha\"",
+        "LABEL. 13px \"Hudud\"",
+        "LABEL. 13px \"Bosqich\"",
+        "LABEL. 13px \"Summa\"",
+        "BUTTON. 13px \"Nom\"",
+        "TH.c-sector 13px \"Soha\"",
+        "TH.c-region 13px \"Hudud\"",
+        "TH.c-stage 13px \"Bosqich\"",
+        "BUTTON. 13px \"Summa\"",
+        "SPAN.tag tag--sample 13px \"Namuna\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:O‘zbekistondagi biznes loyihalari va inv",
+        "H2:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1280",
+      "page": "catalog",
+      "file": "vp-d1280-catalog.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [
+        "row__what: Zavod va qurilish kompaniyalari uchun buyurtma asosida ish k",
+        "row__what: Pishiq g‘isht ishlab chiqaruvchi korxona yoqilg‘ini tejaydig",
+        "row__what: Xususiy klinikalarga onlayn yozilish va SMS eslatmalar beruv",
+        "row__what: Eski shahar yaqinidagi uyni sayyohlar uchun 12 xonali oilavi",
+        "row__what: Do‘kon va kafelardan buyurtmalarni velokuryerlar orqali shu ",
+        "row__what: 8–14 yoshli bolalarga konstruktorlar yordamida robototexnika",
+        "row__what: 0,5 gektarlik issiqxonada pomidor yetishtiradi, maydonni 1,5",
+        "row__what: O‘rik va olxo‘rini quritib, 250–500 grammli qadoqlarda do‘ko"
+      ],
+      "minFont": 13,
+      "minFontEl": "LABEL. \"Soha\"",
+      "rows": [
+        {
+          "name": "Tikuvchilik sexi: ish kiyimlari",
+          "metaVisible": false,
+          "meta": "Sanoat ishlab chiqarishi · Namangan viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "G‘isht zavodi uchun yangi pech",
+          "metaVisible": false,
+          "meta": "Qurilish va materiallar · Qashqadaryo viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "Klinikalar uchun navbat tizimi",
+          "metaVisible": false,
+          "meta": "IT va texnologiya · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        },
+        {
+          "name": "Mehmonxona: 12 xonali oilaviy uy",
+          "metaVisible": false,
+          "meta": "Turizm va mehmondo‘stlik · Buxoro viloyati · G‘oya",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        },
+        {
+          "name": "Shahar ichida tez yetkazib berish",
+          "metaVisible": false,
+          "meta": "Transport va logistika · Andijon viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "Bolalar uchun robototexnika to‘garagi",
+          "metaVisible": false,
+          "meta": "Ta’lim · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        },
+        {
+          "name": "Issiqxona: yil bo‘yi pomidor",
+          "metaVisible": false,
+          "meta": "Qishloq xo‘jaligi · Samarqand viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "Quritilgan meva sexi",
+          "metaVisible": false,
+          "meta": "Oziq-ovqat ishlab chiqarish · Farg‘ona viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        }
+      ],
+      "fontsSmall": [
+        "LABEL. 13px \"Soha\"",
+        "LABEL. 13px \"Hudud\"",
+        "LABEL. 13px \"Bosqich\"",
+        "LABEL. 13px \"Summa\"",
+        "BUTTON. 13px \"Nom\"",
+        "TH.c-sector 13px \"Soha\"",
+        "TH.c-region 13px \"Hudud\"",
+        "TH.c-stage 13px \"Bosqich\"",
+        "BUTTON. 13px \"Summa\"",
+        "SPAN.tag tag--sample 13px \"Namuna\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1280",
+      "page": "project-sample",
+      "file": "vp-d1280-project-sample.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 13,
+      "minFontEl": "SPAN.tag tag--sample \"Namuna\"",
+      "rows": [],
+      "fontsSmall": [
+        "SPAN.tag tag--sample 13px \"Namuna\"",
+        "TH. 13px \"Yo‘nalish\"",
+        "TH.num 13px \"Ulush\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Tikuvchilik sexi: ish kiyimlari",
+        "H2:1. Biznes haqida",
+        "H2:2. Mablag‘dan foydalanish",
+        "H2:3. Hamkorlik sharti",
+        "H2:4. Bog‘lanish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1280",
+      "page": "login",
+      "file": "vp-d1280-login.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 15,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kirish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1280",
+      "page": "register",
+      "file": "vp-d1280-register.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 15,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Ro‘yxatdan o‘tish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1280",
+      "page": "404",
+      "file": "vp-d1280-404.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 15,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Sahifa topilmadi"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 404,
+      "errors": [
+        "404 http://127.0.0.1:3100/yoq-sahifa",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ]
+    },
+    {
+      "vp": "d1280",
+      "page": "cabinet-investor",
+      "file": "vp-d1280-cabinet-investor.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 15,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kabinet",
+        "H2:Mening so‘rovlarim",
+        "H2:Saqlangan loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1280",
+      "page": "catalog-saved-empty",
+      "file": "vp-d1280-catalog-saved-empty.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 13,
+      "minFontEl": "LABEL. \"Soha\"",
+      "rows": [],
+      "fontsSmall": [
+        "LABEL. 13px \"Soha\"",
+        "LABEL. 13px \"Hudud\"",
+        "LABEL. 13px \"Bosqich\"",
+        "LABEL. 13px \"Summa\"",
+        "BUTTON. 13px \"Nom\"",
+        "TH.c-sector 13px \"Soha\"",
+        "TH.c-region 13px \"Hudud\"",
+        "TH.c-stage 13px \"Bosqich\"",
+        "BUTTON. 13px \"Summa\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1280",
+      "page": "form-new",
+      "file": "vp-d1280-form-new.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [
+        "file__input: "
+      ],
+      "minFont": 15,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Yangi loyiha",
+        "H2:1. Asosiy ma’lumot",
+        "H2:2. Biznes haqida",
+        "H2:3. Investitsiya",
+        "H2:4. Hamkorlik shartlari"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1280",
+      "page": "cabinet-entrepreneur",
+      "file": "vp-d1280-cabinet-entrepreneur.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 15,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kabinet",
+        "H2:Mening e’lonlarim",
+        "H2:So‘rovlar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1920",
+      "page": "home",
+      "file": "vp-d1920-home.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [
+        "row__what: Zavod va qurilish kompaniyalari uchun buyurtma asosida ish k",
+        "row__what: Pishiq g‘isht ishlab chiqaruvchi korxona yoqilg‘ini tejaydig",
+        "row__what: Xususiy klinikalarga onlayn yozilish va SMS eslatmalar beruv",
+        "row__what: Eski shahar yaqinidagi uyni sayyohlar uchun 12 xonali oilavi",
+        "row__what: Do‘kon va kafelardan buyurtmalarni velokuryerlar orqali shu ",
+        "row__what: 8–14 yoshli bolalarga konstruktorlar yordamida robototexnika",
+        "row__what: 0,5 gektarlik issiqxonada pomidor yetishtiradi, maydonni 1,5",
+        "row__what: O‘rik va olxo‘rini quritib, 250–500 grammli qadoqlarda do‘ko"
+      ],
+      "minFont": 13,
+      "minFontEl": "LABEL. \"Soha\"",
+      "rows": [
+        {
+          "name": "Tikuvchilik sexi: ish kiyimlari",
+          "metaVisible": false,
+          "meta": "Sanoat ishlab chiqarishi · Namangan viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "G‘isht zavodi uchun yangi pech",
+          "metaVisible": false,
+          "meta": "Qurilish va materiallar · Qashqadaryo viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "Klinikalar uchun navbat tizimi",
+          "metaVisible": false,
+          "meta": "IT va texnologiya · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        },
+        {
+          "name": "Mehmonxona: 12 xonali oilaviy uy",
+          "metaVisible": false,
+          "meta": "Turizm va mehmondo‘stlik · Buxoro viloyati · G‘oya",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        },
+        {
+          "name": "Shahar ichida tez yetkazib berish",
+          "metaVisible": false,
+          "meta": "Transport va logistika · Andijon viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "Bolalar uchun robototexnika to‘garagi",
+          "metaVisible": false,
+          "meta": "Ta’lim · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        },
+        {
+          "name": "Issiqxona: yil bo‘yi pomidor",
+          "metaVisible": false,
+          "meta": "Qishloq xo‘jaligi · Samarqand viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "Quritilgan meva sexi",
+          "metaVisible": false,
+          "meta": "Oziq-ovqat ishlab chiqarish · Farg‘ona viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        }
+      ],
+      "fontsSmall": [
+        "LABEL. 13px \"Soha\"",
+        "LABEL. 13px \"Hudud\"",
+        "LABEL. 13px \"Bosqich\"",
+        "LABEL. 13px \"Summa\"",
+        "BUTTON. 13px \"Nom\"",
+        "TH.c-sector 13px \"Soha\"",
+        "TH.c-region 13px \"Hudud\"",
+        "TH.c-stage 13px \"Bosqich\"",
+        "BUTTON. 13px \"Summa\"",
+        "SPAN.tag tag--sample 13px \"Namuna\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:O‘zbekistondagi biznes loyihalari va inv",
+        "H2:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1920",
+      "page": "catalog",
+      "file": "vp-d1920-catalog.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [
+        "row__what: Zavod va qurilish kompaniyalari uchun buyurtma asosida ish k",
+        "row__what: Pishiq g‘isht ishlab chiqaruvchi korxona yoqilg‘ini tejaydig",
+        "row__what: Xususiy klinikalarga onlayn yozilish va SMS eslatmalar beruv",
+        "row__what: Eski shahar yaqinidagi uyni sayyohlar uchun 12 xonali oilavi",
+        "row__what: Do‘kon va kafelardan buyurtmalarni velokuryerlar orqali shu ",
+        "row__what: 8–14 yoshli bolalarga konstruktorlar yordamida robototexnika",
+        "row__what: 0,5 gektarlik issiqxonada pomidor yetishtiradi, maydonni 1,5",
+        "row__what: O‘rik va olxo‘rini quritib, 250–500 grammli qadoqlarda do‘ko"
+      ],
+      "minFont": 13,
+      "minFontEl": "LABEL. \"Soha\"",
+      "rows": [
+        {
+          "name": "Tikuvchilik sexi: ish kiyimlari",
+          "metaVisible": false,
+          "meta": "Sanoat ishlab chiqarishi · Namangan viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "G‘isht zavodi uchun yangi pech",
+          "metaVisible": false,
+          "meta": "Qurilish va materiallar · Qashqadaryo viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "Klinikalar uchun navbat tizimi",
+          "metaVisible": false,
+          "meta": "IT va texnologiya · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        },
+        {
+          "name": "Mehmonxona: 12 xonali oilaviy uy",
+          "metaVisible": false,
+          "meta": "Turizm va mehmondo‘stlik · Buxoro viloyati · G‘oya",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        },
+        {
+          "name": "Shahar ichida tez yetkazib berish",
+          "metaVisible": false,
+          "meta": "Transport va logistika · Andijon viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "Bolalar uchun robototexnika to‘garagi",
+          "metaVisible": false,
+          "meta": "Ta’lim · Toshkent shahri · Prototip / boshlang‘ich",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        },
+        {
+          "name": "Issiqxona: yil bo‘yi pomidor",
+          "metaVisible": false,
+          "meta": "Qishloq xo‘jaligi · Samarqand viloyati · Kengaytirish",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 63
+        },
+        {
+          "name": "Quritilgan meva sexi",
+          "metaVisible": false,
+          "meta": "Oziq-ovqat ishlab chiqarish · Farg‘ona viloyati · Ishlayotgan biznes",
+          "metaClipped": false,
+          "linkClipped": false,
+          "nameAmountOverlap": false,
+          "metaAmountOverlap": false,
+          "h": 65
+        }
+      ],
+      "fontsSmall": [
+        "LABEL. 13px \"Soha\"",
+        "LABEL. 13px \"Hudud\"",
+        "LABEL. 13px \"Bosqich\"",
+        "LABEL. 13px \"Summa\"",
+        "BUTTON. 13px \"Nom\"",
+        "TH.c-sector 13px \"Soha\"",
+        "TH.c-region 13px \"Hudud\"",
+        "TH.c-stage 13px \"Bosqich\"",
+        "BUTTON. 13px \"Summa\"",
+        "SPAN.tag tag--sample 13px \"Namuna\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1920",
+      "page": "project-sample",
+      "file": "vp-d1920-project-sample.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 13,
+      "minFontEl": "SPAN.tag tag--sample \"Namuna\"",
+      "rows": [],
+      "fontsSmall": [
+        "SPAN.tag tag--sample 13px \"Namuna\"",
+        "TH. 13px \"Yo‘nalish\"",
+        "TH.num 13px \"Ulush\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Tikuvchilik sexi: ish kiyimlari",
+        "H2:1. Biznes haqida",
+        "H2:2. Mablag‘dan foydalanish",
+        "H2:3. Hamkorlik sharti",
+        "H2:4. Bog‘lanish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400",
+        "IBM Plex Mono 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1920",
+      "page": "login",
+      "file": "vp-d1920-login.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 15,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kirish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1920",
+      "page": "register",
+      "file": "vp-d1920-register.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 15,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Ro‘yxatdan o‘tish"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1920",
+      "page": "404",
+      "file": "vp-d1920-404.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 15,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Sahifa topilmadi"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 404,
+      "errors": [
+        "404 http://127.0.0.1:3100/yoq-sahifa",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ]
+    },
+    {
+      "vp": "d1920",
+      "page": "cabinet-investor",
+      "file": "vp-d1920-cabinet-investor.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 15,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kabinet",
+        "H2:Mening so‘rovlarim",
+        "H2:Saqlangan loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1920",
+      "page": "catalog-saved-empty",
+      "file": "vp-d1920-catalog-saved-empty.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 13,
+      "minFontEl": "LABEL. \"Soha\"",
+      "rows": [],
+      "fontsSmall": [
+        "LABEL. 13px \"Soha\"",
+        "LABEL. 13px \"Hudud\"",
+        "LABEL. 13px \"Bosqich\"",
+        "LABEL. 13px \"Summa\"",
+        "BUTTON. 13px \"Nom\"",
+        "TH.c-sector 13px \"Soha\"",
+        "TH.c-region 13px \"Hudud\"",
+        "TH.c-stage 13px \"Bosqich\"",
+        "BUTTON. 13px \"Summa\""
+      ],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Loyihalar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1920",
+      "page": "form-new",
+      "file": "vp-d1920-form-new.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [
+        "file__input: "
+      ],
+      "minFont": 15,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\"",
+        "\"IBM Plex Mono\""
+      ],
+      "heads": [
+        "H1:Yangi loyiha",
+        "H2:1. Asosiy ma’lumot",
+        "H2:2. Biznes haqida",
+        "H2:3. Investitsiya",
+        "H2:4. Hamkorlik shartlari"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600",
+        "IBM Plex Mono 400"
+      ],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "vp": "d1920",
+      "page": "cabinet-entrepreneur",
+      "file": "vp-d1920-cabinet-entrepreneur.png",
+      "overflow": 0,
+      "small": [],
+      "ell": [],
+      "minFont": 15,
+      "minFontEl": "BUTTON.topnav__btn \"Qidiruv\"",
+      "rows": [],
+      "fontsSmall": [],
+      "families": [
+        "\"IBM Plex Sans\""
+      ],
+      "heads": [
+        "H1:Kabinet",
+        "H2:Mening e’lonlarim",
+        "H2:So‘rovlar"
+      ],
+      "imgsNoAlt": 0,
+      "brokenImgs": [],
+      "fontsLoaded": [
+        "IBM Plex Sans 400",
+        "IBM Plex Sans 600"
+      ],
+      "status": 200,
+      "errors": []
+    }
+  ],
+  "axe": {
+    "m360-home": [],
+    "m360-project": [],
+    "m360-register": [],
+    "m360-form": [],
+    "d1280-home": [],
+    "d1280-project": [],
+    "d1280-register": [],
+    "d1280-form": []
+  },
+  "extra": {
+    "m360-firstscreen": {
+      "segsVisible": [
+        true,
+        true
+      ],
+      "rowsFullyVisible": 3,
+      "samplesVisible": 8,
+      "allRows": 8,
+      "statLike": null
+    },
+    "m360x640-firstscreen": {
+      "segs": true,
+      "rows": 2
+    },
+    "m360-sheet": {
+      "top": 89,
+      "bottom": 740,
+      "h": 740,
+      "minLabelH": 48,
+      "footVisible": true
+    },
+    "m360-sticky-sortbar": 56,
+    "m390-firstscreen": {
+      "segsVisible": [
+        true,
+        true
+      ],
+      "rowsFullyVisible": 4,
+      "samplesVisible": 8,
+      "allRows": 8,
+      "statLike": null
+    },
+    "m390-sheet": {
+      "top": 101,
+      "bottom": 844,
+      "h": 844,
+      "minLabelH": 48,
+      "footVisible": true
+    },
+    "m390-sticky-sortbar": 56,
+    "t768-firstscreen": {
+      "segsVisible": [
+        true,
+        true
+      ],
+      "rowsFullyVisible": 8,
+      "samplesVisible": 8,
+      "allRows": 8,
+      "statLike": null
+    },
+    "t768-sheet": {
+      "top": 136,
+      "bottom": 1024,
+      "h": 1024,
+      "minLabelH": 48,
+      "footVisible": true
+    },
+    "t768-sticky-sortbar": 56,
+    "d1280-firstscreen": {
+      "segsVisible": [
+        true,
+        true
+      ],
+      "rowsFullyVisible": 7,
+      "samplesVisible": 8,
+      "allRows": 8,
+      "statLike": null
+    },
+    "d1920-firstscreen": {
+      "segsVisible": [
+        true,
+        true
+      ],
+      "rowsFullyVisible": 8,
+      "samplesVisible": 8,
+      "allRows": 8,
+      "statLike": null
+    },
+    "tabOrder": [
+      "A \"Asosiy mazmunga o‘tish\" ring=true",
+      "A \"Loyihalar reestri\" ring=true",
+      "BUTTON \"Qidiruv\" ring=true",
+      "A \"Kirish\" ring=true",
+      "A \"Loyihalarni ko‘rish\" ring=true",
+      "A \"Biznesimga investor topish\" ring=true",
+      "SELECT#f-soha \"Hammasi\nQishloq xo‘jaligi\nOziq\" ring=true",
+      "SELECT#f-hudud \"Hammasi\nToshkent shahri\nToshke\" ring=true",
+      "SELECT#f-bosqich \"Hammasi\nG‘oya\nPrototip / boshl\" ring=true",
+      "SELECT#f-summa \"Hammasi\n10 000 USD gacha\n10 00\" ring=true",
+      "BUTTON \"Saqlanganlar (0)\" ring=true",
+      "BUTTON \"NOM\" ring=true",
+      "BUTTON \"SUMMA\" ring=true",
+      "A \"Tikuvchilik sexi: ish kiyimlar\" ring=true",
+      "BUTTON \"Saqlash: Tikuvchilik sexi: ish\" ring=true",
+      "A \"G‘isht zavodi uchun yangi pech\" ring=true",
+      "BUTTON \"Saqlash: G‘isht zavodi uchun y\" ring=true",
+      "A \"Klinikalar uchun navbat tizimi\" ring=true",
+      "BUTTON \"Saqlash: Klinikalar uchun navb\" ring=true",
+      "A \"Mehmonxona: 12 xonali oilaviy \" ring=true",
+      "BUTTON \"Saqlash: Mehmonxona: 12 xonali\" ring=true",
+      "A \"Shahar ichida tez yetkazib ber\" ring=true",
+      "BUTTON \"Saqlash: Shahar ichida tez yet\" ring=true",
+      "A \"Bolalar uchun robototexnika to\" ring=true",
+      "BUTTON \"Saqlash: Bolalar uchun robotot\" ring=true",
+      "A \"Issiqxona: yil bo‘yi pomidor\" ring=true",
+      "BUTTON \"Saqlash: Issiqxona: yil bo‘yi \" ring=true",
+      "A \"Quritilgan meva sexi\" ring=true",
+      "BUTTON \"Saqlash: Quritilgan meva sexi\" ring=true",
+      "A \"Loyihalarni ko‘rish\" ring=true",
+      "A \"Biznesimga investor topish\" ring=true",
+      "A \"Kabinet\" ring=true",
+      "BODY \"Asosiy mazmunga o‘tish\nLoyihal\" ring=false",
+      "A \"Asosiy mazmunga o‘tish\" ring=true",
+      "A \"Loyihalar reestri\" ring=true",
+      "BUTTON \"Qidiruv\" ring=true",
+      "A \"Kirish\" ring=true",
+      "A \"Loyihalarni ko‘rish\" ring=true",
+      "A \"Biznesimga investor topish\" ring=true",
+      "SELECT#f-soha \"Hammasi\nQishloq xo‘jaligi\nOziq\" ring=true"
+    ],
+    "kbdSort": {
+      "ariaSort1": "descending",
+      "ariaSort2": "ascending",
+      "amountsAsc": [
+        9000,
+        28000,
+        32000,
+        45000,
+        75000,
+        180000,
+        260000,
+        420000
+      ],
+      "focusAfter": "<button type=\"button\" data-sortby=\"summa\">Summa<span class=\"sortmark\" aria-hidde"
+    },
+    "kbdOpenRow": {
+      "url": "http://127.0.0.1:3100/loyihalar/3",
+      "focus": "H1"
+    },
+    "kbdFilter": {
+      "url": "http://127.0.0.1:3100/loyihalar?hudud=toshkent-sh",
+      "count": "2 ta loyiha"
+    },
+    "sheetEsc": {
+      "focusInDialog": true,
+      "closed": true,
+      "focusBack": "soha"
+    },
+    "sampleCta": {
+      "visible": false
+    },
+    "sampleCtaDesktop": 0,
+    "r4": {
+      "closeButton": true,
+      "pendingAfterClose": null,
+      "pendingBeforeLogin": "6",
+      "savedAfterLogin": [
+        6
+      ],
+      "expectedSaved": 6,
+      "notSaved": 7,
+      "url": "http://127.0.0.1:3100/"
+    },
+    "r7kbd": {
+      "tabsFromTerms": null,
+      "ringOnFocus": "none 3px rgb(15, 92, 85)",
+      "spaceOpensChooser": false,
+      "afterRemove": null
+    }
+  }
+}

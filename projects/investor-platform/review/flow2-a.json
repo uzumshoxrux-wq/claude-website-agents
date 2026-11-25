@@ -1,0 +1,429 @@
+{
+  "run": "a",
+  "entVp": "m390",
+  "invVp": "d1280",
+  "decision": "accept",
+  "projId": 9,
+  "entSteps": 14,
+  "invSteps": 12,
+  "log": [
+    "[T] API GET /api/projects?limit=50",
+    "[T] Bosh sahifa ochildi",
+    "[T] \"Biznesimga investor topish\" bosildi",
+    "[T] API POST /api/auth/register",
+    "[T] Ro'yxat formasi to'ldirildi va yuborildi",
+    "[T] API GET /api/me/saved",
+    "[T] Qisman to'ldirildi: nom + soha",
+    "[T] API POST /api/projects",
+    "[T] \"Qoralamani saqlash\" bosildi",
+    "[T] API PUT /api/projects/9",
+    "[T] To'liq bo'lmagan qoralamada \"Nashr qilish\" bosildi",
+    "[T] Qolgan maydonlar to'ldirildi",
+    "[T] \"Rasm tanlash\" bosildi, fayl tanlandi (preview chiqdi)",
+    "[T] API PUT /api/projects/9",
+    "[T] \"Nashr qilish\" bosildi",
+    "[T] API PUT /api/projects/9/image",
+    "[T] API GET /api/me/projects",
+    "[T] API GET /api/me/requests/incoming",
+    "[T] API GET /api/me/saved",
+    "[T] API GET /api/projects/9",
+    "[T] API GET /api/me/saved",
+    "[T] API GET /api/me/projects",
+    "[T] API GET /api/me/requests/incoming",
+    "[I] API GET /api/projects?limit=50",
+    "[I] Bosh sahifa mehmon sifatida ochildi",
+    "[I] API POST /api/auth/register",
+    "[I] Investor sifatida ro'yxatdan o'tdi",
+    "[I] API GET /api/me/saved",
+    "[I] API GET /api/me/requests/outgoing",
+    "[I] API GET /api/me/saved",
+    "[I] API GET /api/me/saved",
+    "[I] API GET /api/projects?limit=50",
+    "[I] Bosh sahifaga qaytdi",
+    "[I] API GET /api/projects?soha=oziq-ovqat&limit=50",
+    "[I] Soha filtri tanlandi",
+    "[I] API GET /api/projects?soha=oziq-ovqat&hudud=toshkent-sh&limit=50",
+    "[I] Hudud filtri tanlandi",
+    "[I] API GET /api/projects?soha=oziq-ovqat&hudud=toshkent-sh&tartib=summa-kamayish&limit=50",
+    "[I] Summa ustuni bo'yicha tartiblandi",
+    "[I] API PUT /api/saved/9",
+    "[I] Yulduzcha bilan saqlandi",
+    "[I] API GET /api/projects/9",
+    "[I] Loyiha sahifasi ochildi",
+    "[I] \"Tadbirkor bilan bog'lanish\" bosildi",
+    "[I] API POST /api/projects/9/requests",
+    "[I] Xabar va aloqa yuborildi",
+    "[I] API POST /api/projects/9/requests",
+    "[I] API GET /api/projects/9",
+    "[I] API GET /api/me/requests/outgoing",
+    "[I] API GET /api/me/saved",
+    "[I] Kabinet ochildi",
+    "[T] API GET /api/me/saved",
+    "[T] API GET /api/me/projects",
+    "[T] API GET /api/me/requests/incoming",
+    "[T] Kabinet yangilandi",
+    "[T] API POST /api/requests/1/accept",
+    "[T] \"Qabul qilish\" bosildi",
+    "[I] API GET /api/me/requests/outgoing",
+    "[I] API GET /api/me/saved",
+    "[I] Kabinetda \"Yangilash\" bosildi",
+    "[I] API PUT /api/projects/9",
+    "[I] API POST /api/projects/9/close",
+    "[I] API POST /api/requests/1/accept",
+    "[I] API GET /api/me/requests/incoming",
+    "[T] API GET /api/projects/9",
+    "[T] Tahrirlash ochildi",
+    "[T] API PUT /api/projects/9",
+    "[T] \"O'zgarishlarni saqlash\" bosildi",
+    "[T] API GET /api/me/saved",
+    "[T] API GET /api/me/projects",
+    "[T] API GET /api/me/requests/incoming",
+    "[T] confirm(): \"“Non sexi Chilonzor mww2d1ze” e’lonini yopasizmi? U ochiq reestrdan olib tashlanadi.\" -> accept",
+    "[T] API POST /api/projects/9/close",
+    "[T] \"E'lonni yopish\" bosildi (confirm)",
+    "[T] API GET /api/me/projects",
+    "[T] API GET /api/me/requests/incoming",
+    "[I] API GET /api/me/saved",
+    "[I] API GET /api/projects/9",
+    "[I] API GET /api/me/saved",
+    "[I] API GET /api/me/requests/outgoing",
+    "[I] API GET /api/me/saved"
+  ],
+  "checks": [
+    {
+      "name": "a: find-investor -> ro'yxat sahifasi",
+      "ok": true,
+      "detail": "http://127.0.0.1:3100/royxatdan-otish?rol=tadbirkor&next=%2Fkabinet%2Fyangi"
+    },
+    {
+      "name": "a: tadbirkor roli oldindan tanlangan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: ro'yxat bo'sh forma xatolari maydon yonida",
+      "ok": true,
+      "detail": "[\"Ismingizni kiriting.\",\"To‘g‘ri email manzil kiriting, masalan: ism@pochta.uz\",\"Parol kamida 8 ta belgidan iborat bo‘lsin.\"]"
+    },
+    {
+      "name": "a: ro'yxatdan keyin yangi loyiha formasi",
+      "ok": true,
+      "detail": "http://127.0.0.1:3100/kabinet/yangi"
+    },
+    {
+      "name": "a: qoralama saqlandi, id=9",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: qoralama ochiq katalog API da yo'q",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: qoralama /api/projects/:id mehmonga 404",
+      "ok": true,
+      "detail": "404"
+    },
+    {
+      "name": "a: nashr urinishida majburiy maydon xatolari maydon yonida",
+      "ok": true,
+      "detail": "[\"region\",\"stage\",\"summary\",\"amount_usd\",\"use_of_funds\",\"terms\"]"
+    },
+    {
+      "name": "a: xato xulosasi ko'rinadi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: R-7 rasm tugmasi o'zbekcha",
+      "ok": true,
+      "detail": "Rasm tanlash"
+    },
+    {
+      "name": "a: R-7 rasm tugmasi >=44px",
+      "ok": true,
+      "detail": "{\"x\":16,\"y\":56.25,\"width\":114.171875,\"height\":44}"
+    },
+    {
+      "name": "a: R-7 boshlang'ich holat \"Fayl tanlanmagan\"",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: R-7 brauzer standart file input ko'rinmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: R-7 tanlangan fayl nomi ko'rinadi",
+      "ok": true,
+      "detail": "sex.png"
+    },
+    {
+      "name": "a: kabinetda e'lon Nashr qilingan",
+      "ok": true,
+      "detail": " Non sexi Chilonzor mww2d1ze Nashr qilingan 35 000 USD 25.11.2026 Tahrirlash E’lonni yopish "
+    },
+    {
+      "name": "a: nashrdan keyin mehmon API ko'radi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: rasm saqlandi",
+      "ok": true,
+      "detail": "/uploads/9-198df70be72351bc.jpg"
+    },
+    {
+      "name": "a: rasm fayli yuklanadi",
+      "ok": true,
+      "detail": "200 image/jpeg"
+    },
+    {
+      "name": "a: R-3 o'z e'lonida bog'lanish tugmasi yo'q",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "a: mehmon bosh sahifada reestrni ko'radi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: mehmon yulduzcha -> kirish taklifi",
+      "ok": true,
+      "detail": "\n      \n        Saqlash uchun akkauntga kiring\n        Saqlanganlar akkauntingiz"
+    },
+    {
+      "name": "a: dialog Esc bilan yopiladi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: R-4 mehmon yopgan kirish taklifidagi loyiha avtomatik saqlanmagan",
+      "ok": true,
+      "detail": "guestStarId=1 saved=[]"
+    },
+    {
+      "name": "a: filtrlar URL da",
+      "ok": true,
+      "detail": "http://127.0.0.1:3100/?soha=oziq-ovqat&hudud=toshkent-sh&tartib=summa-kamayish"
+    },
+    {
+      "name": "a: filtrdan keyin loyiha topildi",
+      "ok": true,
+      "detail": "[\"Non sexi Chilonzor mww2d1ze\"]"
+    },
+    {
+      "name": "a: natija soni ko'rsatilgan",
+      "ok": true,
+      "detail": "1 ta loyiha"
+    },
+    {
+      "name": "a: saqlashdan oldin yulduzcha bo'sh",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: yulduzcha aria-pressed=true",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: loyiha sahifasida tadbirkor emaili yo'q",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: raqamlangan bo'limlar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: maxfiylik izohi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: foiz jadvali",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: loyiha sahifasida rasm chiqdi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: loyiha sahifasida \"Saqlangan\"",
+      "ok": true,
+      "detail": "Saqlangan"
+    },
+    {
+      "name": "a: R-2 desktopda \"Tadbirkor bilan bog'lanish\" tugmasi birinchi ekranda",
+      "ok": true,
+      "detail": "{\"x\":284,\"y\":291,\"width\":226.546875,\"height\":44}"
+    },
+    {
+      "name": "a: R-2 desktop tugma matni",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: CTA fokusni forma maydoniga olib boradi",
+      "ok": true,
+      "detail": "c-message"
+    },
+    {
+      "name": "a: bog'lanish formasi validatsiyasi",
+      "ok": true,
+      "detail": "[\"Xabar kamida 10 ta belgidan iborat bo‘lsin.\",\"Javob olish uchun telefon, email yoki Telegram manzilini yozing.\"]"
+    },
+    {
+      "name": "a: yuborilgandan keyin tasdiq + Kutilmoqda",
+      "ok": true,
+      "detail": "So‘rovingiz yuborildi. Holati: Kutilmoqda Tadbirkor so‘rovni qabul qilsa yoki rad etsa, natija kabinetingizda ko‘rinadi."
+    },
+    {
+      "name": "a: takroriy so'rov rad etiladi (409)",
+      "ok": true,
+      "detail": "409"
+    },
+    {
+      "name": "a: investor aloqasi ochiq katalog API da yo'q",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: investor aloqasi ochiq loyiha API da yo'q",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: investor sessiyasida ham loyiha API da tadbirkor aloqasi yo'q",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: investor kabinetida \"Kutilmoqda\"",
+      "ok": true,
+      "detail": "Non sexi Chilonzor mww2d1ze Assalomu alaykum. Loyihangiz qiziqarli, shartlarni batafsil muhokama qilmoqchiman. 25.11.2026 Kutilmoqda Tadbirkor hali javob bermagan."
+    },
+    {
+      "name": "a: tadbirkor so'rovni ko'radi (xabar, aloqa, ism)",
+      "ok": true,
+      "detail": "Non sexi Chilonzor mww2d1ze Investor A Assalomu alaykum. Loyihangiz qiziqarli, shartlarni batafsil muhokama qilmoqchiman. +998 90 111 22 33 (investor-maxfiy) 25.11.2026 Kutilmoqda Qabul qilish Rad eti"
+    },
+    {
+      "name": "a: tadbirkor kabinetida holat \"Qabul qilindi\"",
+      "ok": true,
+      "detail": "Non sexi Chilonzor mww2d1ze Investor A Assalomu alaykum. Loyihangiz qiziqarli, shartlarni batafsil muhokama qilmoqchiman. +998 90 111 22 33 (investor-maxfiy) 25.11.2026 Qabul qilindi Hozirgina"
+    },
+    {
+      "name": "a: investor kabinetida \"Qabul qilindi\"",
+      "ok": true,
+      "detail": "Non sexi Chilonzor mww2d1ze Assalomu alaykum. Loyihangiz qiziqarli, shartlarni batafsil muhokama qilmoqchiman. 25.11.2026 Qabul qilindi Tadbirkor siz qoldirgan aloqa ma’lumoti orqali bog‘lanadi."
+    },
+    {
+      "name": "a: saqlangan loyiha 3-qurilmada ham ko'rinadi",
+      "ok": true,
+      "detail": "[\"Non sexi Chilonzor mww2d1ze\"]"
+    },
+    {
+      "name": "a: investor begona loyihani tahrirlay olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: investor begona loyihani yopa olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: investor so'rovni qabul qila olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: investor kiruvchi so'rovlarni o'qiy olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: begona tadbirkor loyihani tahrirlay olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: begona tadbirkor loyihani yopa olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: begona tadbirkor rasmini o'chira olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: begona tadbirkor so'rovni rad eta olmaydi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: begona tadbirkor kiruvchilarida so'rov yo'q",
+      "ok": true,
+      "detail": "{\"items\":[]}"
+    },
+    {
+      "name": "a: begona tadbirkor tahrirlash sahifasini ocholmaydi (UI)",
+      "ok": true,
+      "detail": "Sahifa topilmadi"
+    },
+    {
+      "name": "a: tahrir saqlandi va ochiq sahifada yangilandi",
+      "ok": true,
+      "detail": "42000 published"
+    },
+    {
+      "name": "a: kabinetda \"Yopilgan\"",
+      "ok": true,
+      "detail": "Non sexi Chilonzor mww2d1ze Yopilgan 42 000 USD 25.11.2026 Tahrirlash Qayta nashr qilish"
+    },
+    {
+      "name": "a: yopilgan e'lon ochiq katalogda yo'q",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: yopilgan sahifada izoh",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a: R-3 yopilgan sahifada footer ortiqcha pastki joysiz",
+      "ok": true,
+      "detail": "0px"
+    },
+    {
+      "name": "a: R-3 yopilgan e'londa \"Tadbirkor bilan bog'lanish\" tugmasi o'chgan/yashirin",
+      "ok": true,
+      "detail": "visible=false"
+    },
+    {
+      "name": "a: investor kabinetida \"E'lon yopilgan\" belgisi",
+      "ok": true,
+      "detail": "Non sexi Chilonzor mww2d1ze E’lon yopilgan Assalomu alaykum. Loyihangiz qiziqarli, shartlarni batafsil muhokama qilmoqchiman. 25.11.2026 Qabul qilindi Tadbirkor siz qoldirgan aloqa ma’lumoti orqali bog‘lanadi."
+    },
+    {
+      "name": "a: tadbirkor brauzerida konsol/tarmoq xatolari yo'q",
+      "ok": false,
+      "detail": "[\"HTTP 422 PUT http://127.0.0.1:3100/api/projects/9\",\"console: Failed to load resource: the server responded with a status of 422 (Unprocessable Entity)\"]"
+    },
+    {
+      "name": "a: investor brauzerida konsol/tarmoq xatolari yo'q",
+      "ok": false,
+      "detail": "[\"HTTP 409 POST http://127.0.0.1:3100/api/projects/9/requests\",\"console: Failed to load resource: the server responded with a status of 409 (Conflict)\",\"HTTP 403 PUT http://127.0.0.1:3100/api/projects/9\",\"console: Failed to load resource: the server responded with a status of 403 (Forbidden)\",\"HTTP 403 POST http://127.0.0.1:3100/api/projects/9/close\",\"console: Failed to load resource: the server responded with a status of 403 (Forbidden)\",\"HTTP 403 POST http://127.0.0.1:3100/api/requests/1/accept\",\"console: Failed to load resource: the server responded with a status of 403 (Forbidden)\",\"HTTP 403 GET http://127.0.0.1:3100/api/me/requests/incoming\",\"console: Failed to load resource: the server responded with a status of 403 (Forbidden)\"]"
+    }
+  ]
+}
