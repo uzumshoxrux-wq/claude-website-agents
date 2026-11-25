@@ -275,3 +275,118 @@ Barchasi `review/screenshots/round2/` da:
 - **Viewportlar:** `vp-{m360,m390,t768,d1280,d1920}-*.png`, `vp-m360x640-home-firstscreen.png`, `vp-*-sheet-hudud.png`, `kbd-d1280-*.png`.
 - **R-4 va R-7:** `r4-after-login.png`, `r7-file-{focus,picked,removed,removed-kbd,wrongtype}-{d1280,m360}.png`.
 - **Skriptlar va xom natijalar:** `review/flow2.js`, `review/viewports2.js`, `review/flow2-{a,b,c}.json`, `review/viewports2.json`.
+
+---
+
+# Tekshiruv: Investor platformasi ("Loyihalar reestri") — 2026-11-25, raund 3 (yakuniy)
+
+## Xulosa
+Holat: O'TDI (umumiy: TAYYOR)
+Kritik: 0, Muhim: 0, Kichik: 1 (R-8 qoldig'i, Muhim dan tushirildi)
+
+- R-8 tuzatildi. Mobil qator 98–118px ga tushdi (Raund 2 da 103–145px). Meta satri to'liq kenglikda.
+- R-1 saqlangan: 6 ta mobil viewport × 8 qatorda nom, meta va summa kesilmaydi va ustma-ust tushmaydi.
+- Qolgan zichlik farqi (~84–88px o'rniga 98–118px) Kichik deb baholandi. Asosi pastda.
+- Briefdagi yakuniy oqim uch marta to'liq bajarildi. Har safar ikki yangi akkaunt va ikki alohida brauzer konteksti ishlatildi. Natija Raund 2 bilan bir xil, regressiya yo'q.
+
+Muhit:
+- `DATA_DIR=<scratchpad>/data-r3 PORT=3100 npm start` (toza baza).
+- Playwright va Chromium, axe-core 4.x.
+- Ro'yxatdan o'tish limitiga urilmaslik uchun server viewport skriptidan keyin bir marta qayta ishga tushirildi.
+- `site/` da o'zgarish yo'q (`git status` toza), `site/data/` ga tegilmadi. Oxirida server to'xtatildi.
+
+## R-8 qayta baholash
+Mustaqil o'lchov: `review/r8-measure3.js` → `review/r8-measure3.json`, 8 ta NAMUNA qatori.
+
+| Viewport | Qator balandligi, px | Birinchi qatorgacha (`/`) | To'liq ko'rinadigan qatorlar `/` (`/loyihalar`) | Kesilish / ustma-ust |
+|---|---|---|---|---|
+| 360×740 | 118,118,118,98,118,98,98,98 | 313px | 3 (4) | 0 / 0 |
+| 360×640 | xuddi shunday | 313px | 2 (4) | 0 / 0 |
+| 375×667 | xuddi shunday | 293px | 3 (4) | 0 / 0 |
+| 390×844 | xuddi shunday | 293px | 4 (5) | 0 / 0 |
+| 412×915 | 98 (bittasi 86) | 293px | 6 (7) | 0 / 0 |
+| 768×1024 | 86 | 265px | 8 (8) | 0 / 0 |
+
+Builder ma'lumotlari tasdiqlandi: 98–118px, meta 328px (360 da) va 358px (390 da) kenglikda, 360×740 da 3 ta, 390×844 da 4 ta qator. Gorizontal skroll yo'q.
+
+Balandlik qayerdan keladi:
+- **Nom 2 satrga o'tadi** (8 qatordan 7 tasida). Sababi: NAMUNA yorlig'i (~110px) va o'ngdagi summa. Natijada nom ~200px ga qoladi.
+- **Meta 14px da.** To'liq "soha · hudud · bosqich" 8 qatordan 5 tasida 2 satrga o'raladi. Masalan, "Sanoat ishlab chiqarishi · Namangan viloyati · Ishlayotgan biznes" 358px ga ham sig'maydi.
+- **Namunasiz e'lonlarda qator pastroq.** Alohida o'lchov (`review/r8-realrow3.js`): "Non sexi Chilonzor" va "Tikuv sexi Qarshi" qatorlari 360 va 390 da 97px. Nom 1 satr, meta 2 satr. Dalil: `round3/r8-real-rows-m360.png`.
+- **Qatorlardan yuqoridagi bloklar** `/` da 293–313px oladi. Bular: panel, shior, ikki amal segmenti, saralash qatori, "Loyihalar 8 ta loyiha" sarlavhasi va alohida satrdagi "Faqat saqlanganlar". 84–88px qatorlar bilan ham 360×740 ga ~5 qator sig'ardi, 6–7 emas. Demak `decision.md` 47-banddagi "~6–7" bosh sahifada arifmetik jihatdan ham erishib bo'lmaydigan raqam edi.
+
+Nega Kichik:
+1. `decision.md` 47-band zichlikni kontentdan pastga qo'yadi: "nima, qayerda, qancha darhol ko'rinsin talabi zichlikdan muhimroq". 48-band meta uchun 14px minimumni talab qiladi. Joriy yechim ikkala qarorga ham amal qiladi. Qolgan farq aynan shu ikki cheklov va o'zbekcha yorliqlar uzunligidan kelib chiqadi.
+2. Qabul mezonlari bajarildi:
+   - 360×640 da ikki amal va kamida 1 qator skrollsiz ko'rinadi (2 ta);
+   - "nima / qayerda / qancha" uchalasi to'liq;
+   - summalar o'ng ustunda tekislangan.
+   Ekrandagi qatorlar soni qabul mezonlarida yo'q.
+3. Raund 2 dagi oson tuzatish (meta to'liq kenglikda) qo'llandi. Eng baland qator 145px dan 118px ga tushdi (−19%). Haqiqiy e'lonlar 97px.
+4. Qolgan yaxshilashlar sayqal darajasida va kontent bilan murosa talab qiladi. Ular pastdagi R-8 qoldig'ida.
+
+Shunga qaramay, mezon vazni 25% ekanini hisobga olib, farqni ochiq qayd etamiz. 360×740 bosh sahifada 3 qator ko'rinadi, Raund 1 da 4 ta edi.
+
+## Asosiy foydalanuvchi amallari (yakuniy oqim, `review/flow3.js`)
+Oqim: tadbirkor ro'yxatdan o'tadi → qoralama → nashr → investor katalogda filtr bilan topadi → saqlaydi → xabar yuboradi → tadbirkor qaror qiladi → investor natijani ko'radi → tahrirlash → yopish. Ruxsat va maxfiylik tekshiruvlari ham kiritilgan.
+
+| Oqim | Tadbirkor | Investor | Qaror | Qadamlar (T / I) | Tekshiruvlar | Raund 2 |
+|---|---|---|---|---|---|---|
+| A | mobil 390×844 | desktop 1280×800 | qabul | 14 / 12 | 65/67 | 65/67 |
+| B | desktop 1280×800 | mobil 360×740 | rad | 13 / 13 | 58/60 | 58/60 |
+| C | mobil 360×740 | mobil 390×844 | qabul | 13 / 13 | 58/60 | 58/60 |
+
+Har oqimda o'tmagan 2 ta tekshiruv faqat test ataylab chaqirgan javoblarga tegishli: to'liq bo'lmagan nashrda 422, takroriy so'rovda 409, begona resursga 403. Kutilmagan konsol yoki tarmoq xatosi yo'q.
+
+| Amal | Mobil | Desktop | Izoh |
+|---|---|---|---|
+| Joylash (ro'yxat → qoralama → nashr) | ✅ | ✅ | Validatsiya xatolari maydon yonida chiqadi. Rasm yuklanadi. Qoralama mehmonga ko'rinmaydi. |
+| Katalogdan topish (filtr / tartib / URL) | ✅ | ✅ | Mobilda bottom sheet, desktopda select. Loyiha topiladi. |
+| Xabar yuborish | ✅ | ✅ | Validatsiyada 2 ta xato chiqadi. Yuborilgach "Kutilmoqda", takroriy so'rovga 409. Desktopda tugma birinchi ekranda (`round3/flow-a-I05b-project-firstscreen.png`). |
+| Qabul / rad | ✅ | ✅ | A va C da "Qabul qilindi", B da "Rad etildi" (`round3/flow-b-I09-cabinet-result.png`). |
+| Investor natijani ko'radi | ✅ | ✅ | Natija ikkala kabinetda ham ko'rinadi. |
+| Tahrirlash va yopish | ✅ | ✅ | Summa yangilanadi. Yopilgan e'lon katalogda yo'q va CTA siz. |
+
+## Maket, kirish imkoniyati, konsol (`review/viewports3.js` → `viewports3.json`)
+- **Gorizontal skroll:** 5 viewport × 10 sahifa = 50 sahifa, hech birida yo'q.
+- **Konsol va tarmoq:** xato yo'q. Faqat `/yoq-sahifa` da 404 chiqadi, bu kutilgan.
+- **axe-core** (wcag2a/aa, 21aa, 22aa, best-practice) 360 va 1280 da bosh sahifa, loyiha sahifasi, ro'yxatdan o'tish va yangi loyiha formasida 0 ta buzilish topdi.
+- **Desktop klaviatura:** Tab tartibi, fokus halqasi va `aria-sort` (descending → ascending) Raund 2 dagidek ishlaydi.
+- **Shrift:** desktopda eng kichigi 13px. Mobilda 12px faqat NAMUNA yorlig'ida.
+- **Sheet:** qatorlari 48px.
+- **Touch nishonlari:** 44px dan kichiklari faqat ruxsat etilganlar:
+  - reestrdagi nom havolalari (41px, butun qator bosiladi);
+  - matn ichidagi havolalar ("Kirish", "Ro'yxatdan o'ting");
+  - vizual yashirilgan fayl input (uning o'rnida 44px "Rasm tanlash" tugmasi bor).
+
+## Topilmalar
+### R-8 (qoldiq) [Kichik] Mobil qator ~84–88px o'rniga 98–118px, 360×740 bosh sahifada 3 qator
+- Viewport: 360×740, 360×640, 375×667, 390×844.
+- Qadamlar: `/` ni oching va `tr.row` balandligini o'lchang.
+- Kutilgan / Haqiqiy: `decision.md` 47-band ~84–88px va ~6–7 qator deydi. Haqiqatda NAMUNA qatorlari 98–118px, namunasiz qatorlar 97px. Ko'rinadigan qatorlar: `/` da 2–4, `/loyihalar` da 4–5. Kesilish yo'q (R-1 saqlangan).
+- Dalil: `review/screenshots/round3/r8-m360x740-firstscreen.png`, `r8-m390x844-firstscreen.png`, `r8-real-rows-m360.png`, `review/r8-measure3.json`.
+- Taklif (ixtiyoriy, sayqal):
+  - "Faqat saqlanganlar" ni "Loyihalar" sarlavhasi satriga o'tkazing (~50px tejaladi, +0,5 qator);
+  - mobil meta da hududni "viloyati" so'zisiz yozing ("Namangan"), shunda ko'p qatorlarda meta 1 satrga tushadi (~−20px). To'liq nom loyiha sahifasida qoladi;
+  - 47-banddagi raqamni haqiqiy cheklovlarga moslab yangilang: "~97–118px, 360×740 da 3–4 qator".
+
+## Konsepsiyaga muvofiqlik (A — "Reestr")
+Konsepsiyaga mos. Qator tuzilmasi konsepsiyadagidek: nom + summa / soha · hudud · bosqich / nima qiladi (1 satr, kesilgan). Shuningdek mos keladi:
+- hero yo'q;
+- desktopda jadval;
+- Plex Mono summalar;
+- NAMUNA yorlig'i;
+- raqamlangan loyiha sahifasi;
+- palitra.
+
+Yagona chetlanish mobil zichlik (R-8 qoldig'i, Kichik). Uning sababi decision.md ning o'zidagi ustuvorliklar.
+
+## Skrinshotlar
+Barchasi `review/screenshots/round3/` da:
+- **Oqimlar:** `flow-{a,b,c}-T01…T08`, `T03b-image-picked` (A), `T04b-own-project`, `flow-{a,b,c}-I01…I11`, `I05b-project-firstscreen`, `X01-foreign-edit`.
+- **Viewportlar:** `vp-{m360,m390,t768,d1280,d1920}-*.png`, `vp-m360x640-home-firstscreen.png`, `vp-*-sheet-hudud.png`, `kbd-d1280-*.png`, `r4-after-login.png`, `r7-*.png`.
+- **R-8:** `r8-{m360x740,m360x640,m375x667,m390x844,m412x915,t768}-firstscreen.png`, `r8-real-rows-m{360,390}.png`.
+- **Skriptlar va xom natijalar:**
+  - `review/flow3.js` va `review/viewports3.js` (flow2/viewports2 nusxalari, papka round3 ga o'zgartirilgan);
+  - `review/r8-measure3.js`, `review/r8-realrow3.js`;
+  - `review/flow3-{a,b,c}.json`, `review/viewports3.json`, `review/r8-measure3.json`.
