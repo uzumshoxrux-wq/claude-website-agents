@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="uz-Latn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{PLATFORM_NAME}}</title>
+<meta name="description" content="O‘zbekistondagi biznes loyihalari reestri: tadbirkorlar loyiha joylaydi, investorlar loyihalarni ko‘rib, tadbirkor bilan bog‘lanadi.">
+<meta name="theme-color" content="#F4F2EC">
+<link rel="preload" href="/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/ibm-plex-sans-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/app.css">
+<script id="boot" type="application/json">{{BOOT_JSON}}</script>
+<script src="/assets/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Asosiy mazmunga o‘tish</a>
+<header class="topbar">
+  <div class="topbar__in">
+    <a class="brand" href="/" data-brand>{{PLATFORM_NAME}}</a>
+    <nav class="topnav" aria-label="Asosiy">
+      <button type="button" class="topnav__btn" data-action="toggle-search" aria-expanded="false" aria-controls="searchbar">Qidiruv</button>
+      <a class="topnav__btn topnav__btn--strong" href="/kirish" data-account>Kirish</a>
+    </nav>
+  </div>
+  <form class="searchbar" id="searchbar" role="search" hidden>
+    <label class="sr-only" for="search-input">Loyiha nomi yoki tavsifi bo‘yicha qidirish</label>
+    <input id="search-input" name="q" type="search" placeholder="Loyiha nomi yoki tavsifi" autocomplete="off" maxlength="80">
+    <button type="submit" class="btn btn--primary">Izlash</button>
+  </form>
+</header>
+<main id="main" tabindex="-1">
+  <noscript><p class="notice">Platforma ishlashi uchun brauzerda JavaScript yoqilgan bo‘lishi kerak.</p></noscript>
+  <p class="loading">Yuklanmoqda…</p>
+</main>
+<footer class="footer">
+  <div class="footer__in">
+    <p class="footer__name">{{PLATFORM_NAME}}</p>
+    <p>Tadbirkorlar va investorlar uchun loyihalar reestri. Birinchi versiya: platformada to‘lov va pul o‘tkazish funksiyalari yo‘q.</p>
+    <p>“NAMUNA” belgili e’lonlar sinov uchun qo‘shilgan va haqiqiy biznesni bildirmaydi.</p>
+    <nav aria-label="Pastki">
+      <ul class="footer__links">
+        <li><a href="/loyihalar">Loyihalarni ko‘rish</a></li>
+        <li><a href="/kabinet/yangi" data-action="find-investor">Biznesimga investor topish</a></li>
+        <li><a href="/kabinet">Kabinet</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+<div class="toast" role="status" aria-live="polite" data-toast></div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "investor-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tadbirkorlar va investorlar platformasi — birinchi versiya (tashqi bogʻliqliksiz).",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server/server.js",
+    "seed:demo": "node --disable-warning=ExperimentalWarning server/seed-demo-users.js",
+    "test:api": "node --disable-warning=ExperimentalWarning server/smoke-test.js"
+  }
+}
