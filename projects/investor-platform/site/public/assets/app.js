@@ -143,7 +143,13 @@
         <a class="btn btn--primary" href="${loginUrl(next)}" data-close>Kirish</a>
       </div>
       <p class="sheet__extra"><a href="${registerUrl('investor', next || here())}" data-close>Akkaunt yo‘qmi? Ro‘yxatdan o‘ting</a></p>`,
-    { onReady: (d) => d.setAttribute('aria-labelledby', 'dlg-title') });
+    { onReady: (d) => {
+      d.setAttribute('aria-labelledby', 'dlg-title');
+      // Taklif "Kirish" / "Ro'yxatdan o'ting" havolasisiz yopilsa, saqlash niyati bekor qilinadi.
+      let proceed = false;
+      d.addEventListener('click', (e) => { if (e.target.closest('a[href]')) proceed = true; }, true);
+      d.addEventListener('close', () => { if (!proceed) sessionStorage.removeItem('pendingSave'); });
+    } });
   }
 
   /* ---------------------------------------------------------------- */
@@ -237,6 +243,7 @@
     const u = new URL(location.href);
     updateAccount();
     document.body.dataset.page = '';
+    document.body.removeAttribute('data-cta');
     cat = null;
     let done = false;
     for (const [re, view] of routes) {
@@ -619,6 +626,8 @@
     document.body.dataset.page = 'project';
     const back = sessionStorage.getItem('lastCatalog') || '/loyihalar';
     const canSave = p.status === 'published';
+    // Bog'lanish tugmasi faqat so'rov yuborish mumkin bo'lgan e'londa ko'rsatiladi (decision.md, 7-band).
+    const canContact = p.status === 'published' && !p.is_sample && !p.is_own;
     setPage(p.name || 'Nomsiz qoralama', html`
       <article class="doc wrap">
         <p class="crumbs"><a href="${back}">Reestrga qaytish</a>${p.is_own ? html` · <a href="/kabinet/loyiha/${p.id}">Tahrirlash</a>` : ''}</p>
@@ -633,7 +642,10 @@
             <div><dt>Kerakli investitsiya</dt><dd class="amount amount--big">${fmtAmount(p.amount_usd)}</dd></div>
             ${p.published_at ? html`<div><dt>E’lon qilingan</dt><dd class="mono">${fmtDate(p.published_at)}</dd></div>` : ''}
           </dl>
-          ${canSave ? html`<button type="button" class="star star--text" data-save="${p.id}" data-name="${p.name}" aria-pressed="${String(state.savedIds.has(p.id))}">${STAR}<span data-savetext>${state.savedIds.has(p.id) ? 'Saqlangan' : 'Saqlash'}</span></button>` : ''}
+          ${canSave || canContact ? html`<div class="doc__actions">
+            ${canContact ? html`<a class="btn btn--primary doc__cta" href="#boglanish" data-action="goto-contact">Tadbirkor bilan bog‘lanish</a>` : ''}
+            ${canSave ? html`<button type="button" class="star star--text" data-save="${p.id}" data-name="${p.name}" aria-pressed="${String(state.savedIds.has(p.id))}">${STAR}<span data-savetext>${state.savedIds.has(p.id) ? 'Saqlangan' : 'Saqlash'}</span></button>` : ''}
+          </div>` : ''}
         </header>
         <section class="doc__sec" aria-labelledby="s1">
           <h2 id="s1">1. Biznes haqida</h2>
@@ -655,9 +667,10 @@
           <div data-contact>${contactBlock(p, myReq)}</div>
         </section>
       </article>
-      <div class="stickycta">
+      ${canContact ? html`<div class="stickycta">
         <a class="btn btn--primary btn--wide" href="#boglanish" data-action="goto-contact">Tadbirkor bilan bog‘lanish</a>
-      </div>`);
+      </div>` : ''}`);
+    document.body.toggleAttribute('data-cta', canContact);
   }
 
   async function submitContact(form) {
@@ -961,7 +974,11 @@
             <label for="p-image">Rasm <span class="req">ixtiyoriy</span></label>
             <p class="hint" id="p-image-hint">JPG, PNG yoki WebP. Rasm faqat loyiha sahifasida ko‘rsatiladi, reestrda emas. Yuklashdan oldin hajmi avtomatik kichraytiriladi.</p>
             <div class="imgbox" data-imgbox>${p.image ? html`<img src="${p.image}" alt="Joriy rasm">` : ''}</div>
-            <input id="p-image" name="image" type="file" accept="image/jpeg,image/png,image/webp" aria-describedby="p-image-hint">
+            <div class="file">
+              <input id="p-image" class="file__input" name="image" type="file" accept="image/jpeg,image/png,image/webp" aria-describedby="p-image-hint p-image-name">
+              <label for="p-image" class="btn btn--small file__btn">Rasm tanlash</label>
+              <span class="file__name" id="p-image-name" data-filename>${p.image ? 'Joriy rasm yuklangan' : 'Fayl tanlanmagan'}</span>
+            </div>
             <button type="button" class="linkbtn" data-action="remove-image" ${p.image ? '' : raw('hidden')}>Rasmni olib tashlash</button>
           </div>
         </section>
@@ -1011,7 +1028,9 @@
     wrap.querySelectorAll('.field-error').forEach((e) => e.remove());
     input.removeAttribute('aria-invalid');
     const file = input.files[0];
+    const nameEl = form.querySelector('[data-filename]');
     if (!file) return;
+    nameEl.textContent = file.name;
     try {
       const blob = await prepareImage(file);
       formState.pendingImage = blob;
@@ -1025,6 +1044,7 @@
       form.querySelector('[data-action="remove-image"]').hidden = false;
     } catch (e) {
       input.value = '';
+      nameEl.textContent = formState.image && !formState.removeImage ? 'Joriy rasm yuklangan' : 'Fayl tanlanmagan';
       showErrors(form, { image: e.message });
     }
   }
@@ -1165,6 +1185,7 @@
           const form = actionEl.closest('form');
           form.querySelector('[data-imgbox]').innerHTML = '';
           form.querySelector('#p-image').value = '';
+          form.querySelector('[data-filename]').textContent = 'Fayl tanlanmagan';
           actionEl.hidden = true;
           toast('Rasm saqlanganda olib tashlanadi.');
           form.querySelector('#p-image').focus();

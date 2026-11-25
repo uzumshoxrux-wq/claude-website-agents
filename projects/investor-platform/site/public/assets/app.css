@@ -25,7 +25,7 @@
   --fs-xs: 12px; --fs-s: 14px; --fs-m: 16px; --fs-l: 19px; --fs-xl: 23px;
 }
 @media (min-width: 900px) {
-  :root { --fs-xs: 12px; --fs-s: 15px; --fs-m: 16px; --fs-l: 22px; --fs-xl: 28px; }
+  :root { --fs-xs: 13px; --fs-s: 15px; --fs-m: 16px; --fs-l: 22px; --fs-xl: 28px; }
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -207,6 +207,11 @@ table { border-collapse: collapse; }
   }
   .row td { display: block; padding: 0; }
   .row .c-name { grid-row: 1 / 3; min-width: 0; line-height: 22px; }
+  /* Nom va "soha · hudud · bosqich" satri kesilmaydi, kerak bo'lsa ikki qatorga o'raladi */
+  .row__title { display: block; }
+  .row__title .tag { margin-right: 6px; vertical-align: 1px; }
+  .row__link { white-space: normal; overflow: visible; overflow-wrap: anywhere; }
+  .row__meta { white-space: normal; overflow: visible; overflow-wrap: anywhere; }
   .row .c-amount { grid-column: 2; text-align: right; line-height: 22px; font-size: var(--fs-m); }
   .row .c-save { grid-column: 2; display: flex; justify-content: flex-end; align-items: flex-end; margin-right: -10px; margin-bottom: -8px; }
 }
@@ -287,7 +292,7 @@ legend { font-weight: 600; padding: 0; margin-bottom: 4px; }
 
 /* ---------- Loyiha sahifasi ---------- */
 .crumbs { font-size: var(--fs-s); padding-top: 12px; margin-bottom: 12px; }
-.crumbs a { display: inline-block; padding: 10px 0; }
+.crumbs a { display: inline-flex; align-items: center; min-height: 44px; padding: 0; vertical-align: middle; }
 .doc { max-width: 760px; padding-bottom: 32px; }
 .doc__head { border-bottom: 1px solid var(--ink); padding-bottom: 16px; margin-bottom: 8px; }
 .doc__tags { display: flex; gap: 8px; margin-bottom: 8px; }
@@ -313,14 +318,17 @@ legend { font-weight: 600; padding: 0; margin-bottom: 4px; }
 .privacy { border-left: 3px solid var(--muted); padding: 8px 12px; background: var(--hover); font-size: var(--fs-s); }
 .note { padding: 12px; border: 1px solid var(--line); }
 .confirm { padding: 12px; border: 1px solid var(--ok); border-left-width: 4px; }
+.doc__actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.doc__cta { display: none; }
+@media (min-width: 900px) { .doc__cta { display: inline-flex; } }
 .stickycta { display: none; }
 @media (max-width: 899.98px) {
   body[data-page="project"] .stickycta {
     display: block; position: fixed; left: 0; right: 0; bottom: 0; z-index: 25; background: var(--bg);
     border-top: 1px solid var(--ink); padding: 8px 16px calc(8px + env(safe-area-inset-bottom));
   }
-  body[data-page="project"] .footer { padding-bottom: 88px; }
-  body[data-page="project"] .toast { bottom: 84px; }
+  body[data-page="project"][data-cta] .footer { padding-bottom: 88px; }
+  body[data-page="project"][data-cta] .toast { bottom: 84px; }
 }
 
 /* ---------- Holat yorliqlari (doim matn bilan) ---------- */
@@ -350,7 +358,12 @@ input[type="text"], input[type="email"], input[type="password"], input[type="sea
 textarea { resize: vertical; line-height: 1.5; }
 select { appearance: none; padding-right: 32px; background-image: linear-gradient(45deg, transparent 50%, var(--ink) 50%), linear-gradient(135deg, var(--ink) 50%, transparent 50%);
   background-position: calc(100% - 17px) 50%, calc(100% - 12px) 50%; background-size: 5px 5px; background-repeat: no-repeat; }
-input[type="file"] { font-size: var(--fs-s); min-height: 44px; padding: 8px 0; }
+.file { position: relative; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.file__input { position: absolute; left: 0; top: 0; width: 1px; height: 1px; opacity: 0; overflow: hidden; }
+.file__btn { cursor: pointer; }
+.file__input:focus-visible + .file__btn { outline: 3px solid var(--act); outline-offset: 2px; }
+.file__input[aria-invalid="true"] + .file__btn { border: 2px solid var(--rust); }
+.file__name { font-size: var(--fs-s); color: var(--muted); min-width: 0; overflow-wrap: anywhere; }
 [aria-invalid="true"] { border: 2px solid var(--rust) !important; }
 .field-error { color: var(--rust); font-size: var(--fs-s); font-weight: 600; margin: 0; }
 .field-error::before { content: 'Xato: '; }
@@ -403,7 +416,7 @@ body[data-page="form"] .toast { bottom: 84px; }
 .footer__in { max-width: 1200px; margin: 0 auto; padding: 20px 16px 28px; }
 .footer__name { font-weight: 600; color: var(--ink); }
 .footer__links { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0 20px; }
-.footer__links a { display: inline-block; padding: 10px 0; }
+.footer__links a { display: inline-flex; align-items: center; min-height: 44px; padding: 0; }
 
 /* ---------- Bildirishnoma ---------- */
 .toast {
